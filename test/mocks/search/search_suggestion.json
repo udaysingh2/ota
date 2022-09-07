@@ -1,0 +1,74 @@
+{
+  "getDataScienceAutoCompleteSearch": {
+    "data": {
+      "suggestions": {
+        "tour": [
+          {
+            "keyword": "Snorkeling Racha Island",
+            "id": "MA2111000117",
+            "locationName": "null",
+            "cityId": "MA05110067",
+            "cityName": "null",
+            "countryId": "MA05110001"
+          }
+        ],
+        "ticket": [
+          {
+            "keyword": "Phuket Thaihua Museum",
+            "id": "MA2111000034",
+            "locationName": "null",
+            "cityId": "MA05110067",
+            "cityName": "null",
+            "countryId": "MA05110001"
+          }
+        ],
+        "city": [
+          {
+            "keyword": "Phuket",
+            "id": "null",
+            "locationName": "null",
+            "cityId": "MA05110067",
+            "cityName": "Phuket",
+            "countryId": "MA05110001"
+          }
+        ],
+        "cityLocation": [
+          {
+            "keyword": "Phuket",
+            "id": "null",
+            "locationName": "null",
+            "cityId": "MA05110067",
+            "cityName": "Phuket",
+            "countryId": "MA05110001"
+          }
+        ],
+        "location": [
+          {
+            "keyword": " Phuket Town ",
+            "id": "MA08070088",
+            "locationName": " Phuket Town ",
+            "cityId": "MA05110067",
+            "cityName": null,
+            "countryId": "MA05110001"
+          }
+        ],
+        "hotel": [
+          {
+            "cityId": "MA05110067",
+            "displayText": "Amari Phuket (SHA)",
+            "hotelId": "MA0201175007",
+            "countryId": "MA05110001",
+            "hotelName": "Amari Phuket (SHA)",
+            "locationId": "MA06040001"
+          }
+        ]
+      }
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": null,
+      "errors": null
+    }
+  }
+}

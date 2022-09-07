@@ -1,0 +1,9 @@
+private_lane :get_version do |options|
+    `grep 'version: ' ../pubspec.yaml | sed 's/version: //'`
+  end
+
+  private_lane :get_project_build_number do |options|
+    version = get_version
+    version_arr = version.split("+")
+    version_arr.last()
+  end

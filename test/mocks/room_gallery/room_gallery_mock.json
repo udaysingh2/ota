@@ -1,0 +1,35 @@
+{
+  "getRoomImages": {
+    "data": {
+      "roomImageCount": 1,
+      "coverImage": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-deluxe-overview1.jpg",
+      "images": [
+        {
+          "picSeq": "1",
+          "activeFlag": "Y",
+          "URL": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-deluxe-overview1.jpg"
+        },
+        {
+          "picSeq": "1",
+          "activeFlag": "Y",
+          "URL": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-deluxe-overview1.jpg"
+        },
+        {
+          "picSeq": "1",
+          "activeFlag": "Y",
+          "URL": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-deluxe-overview1.jpg"
+        },
+        {
+          "picSeq": "1",
+          "activeFlag": "Y",
+          "URL": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-deluxe-overview1.jpg"
+        }
+      ]
+    },
+    "status": {
+      "description": null,
+      "header": "Success",
+      "code": "1000"
+    }
+  }
+}

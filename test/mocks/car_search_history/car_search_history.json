@@ -1,0 +1,28 @@
+{
+    "getCarRentalRecentSearches": {
+      "data": {
+        "searchHistory": [
+          {
+            "carRental": {
+              "carRecentSearchList": [
+                {
+                  "dataSearchType": "AUTOCOMPLETE",
+                  "cityId": "MA05110",
+                  "countryId": "Austria",
+                  "locationId": "1111999",
+                  "createdDate": "2022-04-26T14:08:52.465",
+                  "updatedDate": "2022-04-26T14:08:52.465",
+                  "searchKey": "xlocation5"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "status": {
+        "code": "1000",
+        "header": "success",
+        "description": ""
+      }
+    }
+  }

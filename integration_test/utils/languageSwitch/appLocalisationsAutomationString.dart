@@ -1,0 +1,146 @@
+class AppLocalizationsAutomationStrings {
+  // Splash Screen
+  static const String hello = 'hello';
+  static const String rooms = 'rooms';
+  static const String chooseThisRoom = 'chooseThisRoom';
+  static const String galleryButtonText = 'galleryButtonText';
+  static const String seeAllReviews = 'seeAllReviews';
+  static const String checkIn = 'checkIn';
+  static const String checkOut = 'checkOut';
+  static const String guest = 'guest';
+  static const String start = 'start';
+  static const String night = 'night';
+  static const String totalPrice = 'totalPrice';
+  static const String bahtSymbol = '฿';
+  static const String review = 'review';
+  static const String accommodations = 'accommodations';
+  static const String facilities = 'facilities';
+  static const String weAreSorry = 'weAreSorry';
+  static const String pleasePullToRefresh = 'pleasePullToRefresh';
+  static const String loading = 'loading';
+  static const String accommodationHeader = 'accommodationHeader';
+  static const String noMatchingResultMessage = 'noMatchingResultMessage';
+  static const String breakfast = 'breakfast';
+  static const String wifi = 'wifi';
+  static const String agree = 'agree';
+  static const String gallery = 'gallery';
+  static const String sorry = 'sorry';
+  static const String somethingWentWrong = 'somethingWentWrong';
+  static const String cancellationPolicy = 'cancellationPolicy';
+  static const String payNow = 'payNow';
+  static const String fitness = 'fitness';
+  static const String airCondition = 'airCondition';
+  static const String roomService = 'roomService';
+  static const String toileteries = 'toileteries';
+  static const String cdPlayer = 'cdPlayer';
+  static const String wInternet = 'wInternet';
+  static const String desk = 'desk';
+  static const String alarm = 'alarm';
+  static const String slippers = 'slippers';
+  static const String fridge = 'fridge';
+  static const String kettle = 'kettle';
+  static const String phone = 'phone';
+  static const String tub = 'tub';
+  static const String babycot = 'babycot';
+  static const String dryer = 'dryer';
+  static const String depositBox = 'depositBox';
+  static const String swimming = 'swimming';
+  static const String parking = 'parking';
+  static const String spa = 'spa';
+  static const String reduce = 'reduce';
+  static const String reduceOther = 'reduceOther';
+  static const String everyRoom = 'everyRoom';
+  static const String baht = 'baht';
+  static const String laundry = 'laundry';
+  static const String restaurant = 'restaurant';
+  static const String noPhotos = 'noPhotos';
+  static const String periodOfStay = 'periodOfStay';
+  static const String pickADay = 'pickADay';
+
+  static const String mondayShort = 'mondayShort';
+  static const String tuesdayShort = 'tuesdayShort';
+  static const String wednesdayShort = 'wednesdayShort';
+  static const String thursdayShort = 'thursdayShort';
+  static const String fridayShort = 'fridayShort';
+  static const String saturdayShort = 'saturdayShort';
+  static const String sundayShort = 'sundayShort';
+
+  static const String january = 'january';
+  static const String february = 'february';
+  static const String march = 'march';
+  static const String april = 'april';
+  static const String may = 'may';
+  static const String june = 'june';
+  static const String july = 'july';
+  static const String august = 'august';
+  static const String september = 'september';
+  static const String october = 'october';
+  static const String november = 'november';
+  static const String december = 'december';
+  static const String reservationDetails = 'reservationDetails';
+  static const String reservationDates = 'reservationDates';
+  static const String noOfRooms = 'noOfRooms';
+  static const String room = 'room';
+  static const String adults = 'adults';
+  static const String children = 'children';
+  static const String child = 'child';
+  static const String yearsOld = 'yearsOld';
+  static const String ageOfChild = 'ageOfChild';
+  static const String enterChildAge = 'enterChildAge';
+  static const String confirm = 'confirm';
+  static const String unableToProceed = 'unableToProceed';
+  static const String boookingMaxGuestLimitExceededMessage =
+      'boookingMaxGuestLimitExceededMessage';
+
+  static const String roomDetail = 'roomDetail';
+  static const String bookAccomodation = 'bookAccomodation';
+  static const String roomFacility = 'roomFeatures';
+  static const String bookNow = 'bookNow';
+  static const String totalAmount = 'totalAmount';
+  static const String freeCancellation = 'freeCancellation';
+  static const String conditionalCancellation = 'conditionalCancellation';
+  static const String nonRefundable = 'nonRefundable';
+
+  //to be removed after demo
+  static const String demo = 'demo';
+
+  //Review Filter
+  static const String recommend = 'recommend';
+  static const String latest = 'latest';
+  static const String scoreHighLow = 'scoreHighLow';
+  static const String scoreLowHigh = 'scoreLowHigh';
+  static const String superior = 'superior';
+  static const String delux = 'delux';
+  static const String master = 'master';
+  static const String allReviews = 'allReviews';
+  static const String businessman = 'businessman';
+  static const String couple = 'couple';
+  static const String soloTraveler = 'soloTraveler';
+  static const String sortOf = "sortOff";
+  static const String roomType = "roomType";
+  static const String travelerType = "travelerType";
+  static const String reviewType = "reviewType";
+  static const String reset = 'reset';
+  static const String noOfReviews = 'noOfReviews';
+  static const String reviewFilterTitle = 'reviewFilterTitle';
+
+  // Room facilities
+  static const String airConditioner = 'Air-condition';
+  static const String roomService24 = '24 Hrs. Room Service';
+  static const String toiletries = 'Toiletries';
+  static const String cDPlayer = 'CD Player';
+  static const String wiredInternet = 'Wired Internet';
+  static const String workDesk = 'Workdesk';
+  static const String alarmClock = 'Alarm Clock';
+  static const String slipper = 'Slippers';
+  static const String fridges = 'Fridge';
+  static const String electricKettle = 'Electric Kettle';
+  static const String telephone = 'Telephone';
+  static const String bathtub = 'Bathtub';
+  static const String babycots = 'Babycot';
+  static const String hairDryer = 'Hairdryer';
+  static const String freeWifi = "WIFI";
+  static const String freeBreakfast = "BREAKFAST";
+  static const String instantPayment = "PAYMENT";
+  static const String bedroom = "Bedroom";
+}

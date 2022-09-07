@@ -1,0 +1,6 @@
+{
+    "cancellationChargeDescription": "Otherwise cancellation charge of Full Charge from Grand total will be applied.",
+    "cancellationDaysDescription": "You have to cancel 3 day(s) prior to the service date.",
+    "cancellationStatus": "Condtional Cancellation",
+    "days": 3
+ }

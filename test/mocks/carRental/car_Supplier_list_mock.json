@@ -1,0 +1,44 @@
+{
+    "getCarRentalSupplier": {
+      "status": {
+        "code": "1000",
+        "header": "Success"
+      },
+      "data": {
+        "supplierData": [
+          {
+            "id": "11",
+            "allowLateReturn": 2,
+            "supplier": {
+              "id": "MA2111000062",
+              "name": "Krungthai Car Rent & Lease PLC",
+              "logo": {
+                "url": "https://trbhmanage.travflex.com/ImageData/Supplier/krungthai_car_rent___lease_plc-logo.gif"
+              }
+            },
+            "car": {
+              "id": "2",
+              "name": "Vios",
+              "brand": "Toyota",
+              "crafttype": "Medium cars",
+              "seatNbr": "4",
+              "doorNbr": "4",
+              "bagLargeNbr": "1",
+              "bagSmallNbr": "2",
+              "engine": "1500",
+              "gear": "A",
+              "images": {
+                "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-1.jpg",
+                "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-1.jpg"
+              }
+            },
+            "fromDate": "2021-11-10",
+            "toDate": "2022-12-31",
+            "currency": "THB",
+            "totalPrice": "899",
+            "pricePerDay": "899.0"
+          }
+        ]
+      }
+    }
+}

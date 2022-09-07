@@ -1,0 +1,313 @@
+{
+  "data": {
+    "getRecentViewPlaylist": {
+      "listType": "recentViewPlaylist",
+      "recentViewPlaylist": [{
+        "promotionList": [
+          {
+            "productId": "MA1704000003",
+            "productType": "HOTEL",
+            "promotionType": "OVERLAY",
+            "promotionCode": "PROMO03",
+            "line1": "Special",
+            "line2": "Deal",
+            "startDate": "2021-10-16 00:00:00",
+            "endDate": "2021-10-20 23:59:00"
+          },
+          {
+            "productId": "MA1704000003",
+            "productType": "HOTEL",
+            "promotionType": "CAPSULE",
+            "promotionCode": "FREEDELIVERY",
+            "line1": null,
+            "line2": null,
+            "startDate": "2021-10-15 00:00:00",
+            "endDate": "2021-10-20 23:59:00"
+          }
+        ]
+      }],
+      "dynamicPlaylist": {
+        "serviceName": "hotels",
+        "source": "dynamic",
+        "playlist": [
+          {
+            "playlistId": "222",
+            "playlistName": "Special recommended",
+            "cardList": [
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              },
+              {
+                "id": "MA0201175007",
+                "name": "Amari Phuket",
+                "address": "2 Meun-Ngern Road Patong Beach, Kathu Address field 3",
+                "locationId": "MA06040001",
+                "locationName": "Patong Beach",
+                "cityId": "MA05110067",
+                "cityName": "Phuket",
+                "countryId": "MA05110001",
+                "countryName": "Thailand",
+                "capsulePromotion": [
+                  {
+                    "name": "cap1",
+                    "code": "007"
+                  }
+                ],
+                "rating": 4,
+                "infopromotion": [],
+                "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/amari_phuket-general1.jpg",
+                "promotionText1": "",
+                "promotionText2": "",
+                "styleName": "NONE",
+                "startPrice": 1200,
+                "productType": null,
+                "review": {
+                  "score": 4,
+                  "numReview": 10,
+                  "description": "superb"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

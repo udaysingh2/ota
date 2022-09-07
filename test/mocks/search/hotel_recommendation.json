@@ -1,0 +1,122 @@
+{
+  "getHotelSearchRecommendation": {
+    "data": {
+      "recommendationKey": "recommendation.hotel.key",
+      "recommendations": [
+        {
+          "playlistId": null,
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061430",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://th.bing.com/th/id/OIP.Ix6XjMbuCvoq3EQNgJoyEQHaFj?pid=ImgDet&rs=1"
+        },
+        {
+          "playlistId": null,
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061431",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": null,
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061432",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": null,
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061433",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061434",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061435",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061436",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061437",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061438",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061431",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061439",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        },
+        {
+          "playlistId": "111",
+          "serviceTitle": "แชงกรีลา กรุงเทพฯ",
+          "hotelId": "MA15061440",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg"
+        }
+      ],
+      "searchHistory": [
+        {
+          "keyword": "asdf1",
+          "checkInDate": "01/01/2022",
+          "checkOutDate": "02/02/2022"
+        },
+        {
+          "keyword": "asdf1",
+          "checkInDate": "01/01/2022",
+          "checkOutDate": "02/02/2022"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "",
+      "description": "success"
+    }
+  }
+}

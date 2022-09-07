@@ -1,0 +1,23 @@
+{
+  "packageName": "Wat Arun(Holiday by RBH)",
+  "inclusions": {
+    "highlights": [
+      {
+        "key": "ticketTime",
+        "value": "ทัวร์เต็มวัน เริ่ม 09:00 น"
+      },
+      {
+        "key": "isNonRefund",
+        "value": "ขอรับเงินคืนได้หากยกเลิก"
+      }
+    ],
+    "all": "<p>We provide appropriate attire for each treatment, which can are pajamas for Thai Massages, and disposable underwear for Oil-based Massages.</p>"
+  },
+  "cancellationPolicy": "Booking Cancel after 07-Jun-2019, Otherwise cancellation charge of Full Charge from Grand total will be applied.",
+  "durationText": "10 hours ",
+  "exclusions": "<p>gratuity payment</p>",
+  "conditions": "<p>We respectfully request that all visitors must keep noise to a minimum. Do not bring children and leave them unattended, to avoid discomfort to other spa goers. Please refrain from bringing cellular phones and other electronic devices within the vicinity of the spa treatment room. Be reminded that you are in a professional spa therapy operations and so do not expect anything other than therapeutic or spa services.</p>",
+  "shuttle": "<p>The spa opens from 10:00 to 24:00 hours a day.We accept the last booking at no later than 22:00 hours.</p>",
+  "meetingPoint": "",
+  "schedule": "<p>Please check-in at the spa reception at least 10 minutes prior to your scheduled appointment and coordinate with the reception staff, to orient you with your treatment all the way and to maximize treatment time.</p>"
+}

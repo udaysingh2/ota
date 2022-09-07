@@ -1,0 +1,37 @@
+private_lane :get_file_path do |options|
+  if options[:environment].nil?
+    Dir.glob('../../**/*.apk').sort_by { |x| File.mtime(x) }.map(&File.method(:realpath)).last
+  else
+    case options[:environment].downcase
+    when 'alpha', 'dev', 'pt', 'sandbox', 'staging'
+      Dir.glob('../../**/*.apk').sort_by { |x| File.mtime(x) }.map(&File.method(:realpath)).last
+    else 
+      Dir.glob('../../**/*.aab').sort_by { |x| File.mtime(x) }.map(&File.method(:realpath)).last
+    end
+  end
+end
+
+private_lane :get_android_google_app_id do |options|
+    package_name_root = "com.scb.dbank.levelup"
+
+    google_info_path = Dir["../app/src/google-services.json"][0]
+    json_content = File.read(google_info_path)
+    google_info = JSON.parse(json_content)
+    
+    clients = google_info['client']
+    app_id = nil
+
+    package_name_to_find = package_name_root
+    
+    clients.each { |client| 
+      client_info = client['client_info']
+      package_name = client_info['android_client_info']['package_name']
+      puts package_name_to_find
+      if package_name == package_name_to_find
+        app_id = client_info['mobilesdk_app_id']
+        break
+      end
+    }
+
+    return app_id
+  end

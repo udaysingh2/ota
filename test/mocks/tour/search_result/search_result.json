@@ -1,0 +1,42 @@
+{
+  "getTourAndTicketSearchResult": {
+    "data": {
+      "location": "ภูเก็ต",
+      "tourAndTicketActivityList": [
+        {
+          "id": "MA2110000373",
+          "name": "เกาะพีพี1",
+          "styleName": "'สวนสนุก",
+          "locationName": "Ko Phi Phi",
+          "cityId": "MA05110062",
+          "cityName": "ภูเก็ต",
+          "countryId": "MA05110001",
+          "countryName": "ไทย",
+          "imageUrl": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/koh-phi-phi-ma2110000373-general1.jpg",
+          "startPrice": 300.0,
+          "promotionText_line1": "โปรโมชัน_1",
+          "promotionText_line2": "โปรโมชัน_2"
+        },
+        {
+          "id": "MA2110000388",
+          "name": "เกาะพีพี2",
+          "styleName": "'สวนสนุก",
+          "locationName": "Ko Phi Phi",
+          "cityId": "MA05110062",
+          "cityName": "ภูเก็ต",
+          "countryId": "MA05110001",
+          "countryName": "ไทย",
+          "imageUrl": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/koh-phi-phi-ma2110000375-general1.jpg",
+          "startPrice": 1884.0,
+          "promotionText_line1": "โปรโมชัน_1",
+          "promotionText_line2": "โปรโมชัน_2"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": ""
+    }
+  }
+}

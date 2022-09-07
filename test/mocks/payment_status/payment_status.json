@@ -1,0 +1,18 @@
+{
+  "paymentStatus": {
+      "data": {
+        "paymentMethod": "CARD",
+        "paymentStatus": "FAILED",
+        "paymentPhase": "INITIATION",
+        "phaseState": "FAILED",
+        "deeplinkUrl": null,
+        "callbackUrl": null,
+        "errorDescription": null
+      },
+      "status": {
+        "code": "1000",
+        "header": "Success",
+        "description": null
+      }
+    }
+}

@@ -1,0 +1,38 @@
+{
+	"getInsurance": {
+		"data": {
+        
+			"serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/5.jpg",
+			"insuranceHeaderTitle": "recommended",
+			"insuranceFooterTitle": "*Buyers should understand the details of coverage and conditions before deciding to purchase insurance every time.",
+			"insurances": [{
+					"insuranceId": 101,
+					"sortSeqNo": 1,
+					"insuranceImage": "https://ota.robinhood.co.th/insurance/insurance1.png",
+					"insuranceTitle": "กรุงเทพประกันภัย",
+					"insuranceDetail": "คุ้มครองครอบคลุมการเกิดอุบัติเหตุขณะเดินทาง",
+					"promotions": {
+						"type": "OVERLAY",
+						"promotionTextLine1": "ใหม่"
+					},
+					"popup": {
+						"body": "หากคุณต้องการออกจากแอป Robinhood เพื่อเข้าสู่เว็ปไซต์แอกซ่าประกันภัย กรุณากด ตกลง เพื่อดำเนินการต่อ สอบถามเพิ่มเติมกรุณาติดต่อแอกซ่าประกันภัยโทร 1159",
+						"actionType": "WEBVIEW",
+						"actionUrl": "https://www.axa.co.th/travel-accident-protection"
+					},
+					"insuranceCategories": [
+						"Cate1",
+						"Cate2",
+						"Cate3"
+					],
+					"recommendedForServices": [
+						"HOTEL",
+						"TOUR",
+						"TRAVEL"
+					]
+				}
+            ]
+        }
+    }
+}
+        

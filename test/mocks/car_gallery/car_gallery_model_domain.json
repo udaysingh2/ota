@@ -1,0 +1,25 @@
+{
+    "getAllCarRentalImages": {
+      "data": {
+        "id": "2",
+        "images": [
+          {
+            "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-1.jpg",
+            "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-1.jpg"
+          },
+          {
+            "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-2.jpg",
+            "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-2.jpg"
+          },
+          {
+            "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-3.jpg",
+            "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-3.jpg"
+          },
+          {
+            "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-4.jpg",
+            "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-4.jpg"
+          }
+        ]
+      }
+    }
+  }

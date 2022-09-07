@@ -1,0 +1,49 @@
+{
+  "status": {
+    "code": "1000",
+    "header": "Success"
+  },
+  "data": {
+    "hotelName": "String",
+    "hotelImage": "String",
+    "bookingUrn": "String",
+    "roomDetails": {
+      "rateKey": "String",
+      "supplier": "String",
+      "mealType": "String",
+      "roomImage": "String",
+      "roomCategories": [
+        {
+          "roomName": "DELUXE BALCONY ROOM",
+          "roomType": "Double",
+          "noOfRooms": 1
+        }
+      ],
+      "facilities": [
+        {
+          "key": "WIFI",
+          "value": "free.wifi"
+        },
+        {
+          "key": "BREAKFAST",
+          "value": null
+        },
+        {
+          "key": "PAYMENT",
+          "value": "instant.payment"
+        }
+      ],
+      "cancellationPolicy": [
+        {
+          "days": 1,
+          "cancellationDaysDescription": "String",
+          "cancellationChargeDescription": "String",
+          "cancellationStatus": "String"
+        }
+      ],
+      "totalPrice": 12,
+      "perNightPrice": 10,
+      "numberOfNights": "String"
+    }
+  }
+}

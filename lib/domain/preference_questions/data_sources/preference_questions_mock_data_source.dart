@@ -1,0 +1,249 @@
+import 'package:ota/domain/preference_questions/data_sources/preference_questions_remote_data_source.dart';
+import 'package:ota/domain/preference_questions/models/preference_questions_model_domain.dart';
+
+class PreferenceQuestionsMockDataSourceImpl
+    implements PreferenceQuestionsRemoteDataSource {
+  PreferenceQuestionsMockDataSourceImpl();
+  static String getMockData() {
+    return _responseMock;
+  }
+
+  @override
+  Future<PreferenceQuestionsModelDomainData> getPreferencesData() async {
+    await Future.delayed(const Duration(milliseconds: 1));
+    return PreferenceQuestionsModelDomainData.fromJson(_responseMock);
+  }
+}
+
+String _responseMock = '''{
+    "getPreferences": {
+      "data": {
+        "preferences": [
+          {
+            "questionId": "A",
+            "description1": "What are your travel interests?",
+            "description2": "Please select three or more",
+            "backgroundImageUrl": "",
+            "multiChoice": true,
+            "minNum": 3,
+            "options": [
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_waterfall.png",
+                "optionCode": "A1",
+                "optionDesc": "Waterfalls"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_sea.png",
+                "optionCode": "A2",
+                "optionDesc": "Sea"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_mountain.png",
+                "optionCode": "A3",
+                "optionDesc": "Mountains"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Dams.png",
+                "optionCode": "A4",
+                "optionDesc": "Dams"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Zoo.png",
+                "optionCode": "A5",
+                "optionDesc": "Zoos"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Camping.png",
+                "optionCode": "A6",
+                "optionDesc": "Camping"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_museum.png",
+                "optionCode": "A7",
+                "optionDesc": "Museums"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Temples.png",
+                "optionCode": "A8",
+                "optionDesc": "Temples"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Themeparks.png",
+                "optionCode": "A9",
+                "optionDesc": "Theme parks"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_citytour.png",
+                "optionCode": "A10",
+                "optionDesc": "City tours"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_scuba.png",
+                "optionCode": "A11",
+                "optionDesc": "Snorkeling & scuba diving"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_hotspring.png",
+                "optionCode": "A12",
+                "optionDesc": "Hot spring & onzen"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_culturalPreference.png",
+                "optionCode": "A13",
+                "optionDesc": "Cultural tourism"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Ecotourism.png",
+                "optionCode": "A14",
+                "optionDesc": "Ecotourism"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_forest.png",
+                "optionCode": "A15",
+                "optionDesc": "Forests"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Wellness.png",
+                "optionCode": "A16",
+                "optionDesc": "Wellness"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_Gastronomy.png",
+                "optionCode": "A17",
+                "optionDesc": "Gastronomy"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_staycation.png",
+                "optionCode": "A18",
+                "optionDesc": "Staycation/workcation"
+              }
+            ]
+          },
+          {
+            "questionId": "B",
+            "description1": "Who do you like to travel with?",
+            "description2": "Please select two or more",
+            "backgroundImageUrl": "",
+            "multiChoice": true,
+            "minNum": 2,
+            "options": [
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_SoloTravel.png",
+                "optionCode": "B1",
+                "optionDesc": "Solo traveler"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_friends.png",
+                "optionCode": "B2",
+                "optionDesc": "My friends"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_love.png",
+                "optionCode": "B3",
+                "optionDesc": "My love"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_pet.png",
+                "optionCode": "B4",
+                "optionDesc": "My lovely pet"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_colleagues.png",
+                "optionCode": "B5",
+                "optionDesc": "My colleagues"
+              },
+              {
+                "imageUrl": "https://www.linkpicture.com/q/Preference_family.png",
+                "optionCode": "B6",
+                "optionDesc": "My family"
+              }
+            ]
+          },
+          {
+            "questionId": "C",
+            "description1": "How many days you like for a trip?",
+            "description2": "Please select one",
+            "backgroundImageUrl": "https://www.linkpicture.com/q/Preference_NoOfDays.png",
+            "multiChoice": false,
+            "minNum": 3,
+            "options": [
+              {
+                "imageUrl": "",
+                "optionCode": "C1",
+                "optionDesc": "Half day trip"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "C2",
+                "optionDesc": "One day trip"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "C3",
+                "optionDesc": "2 Days 1 night"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "C4",
+                "optionDesc": "2 nights"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "C5",
+                "optionDesc": "3 nights"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "C6",
+                "optionDesc": "Above 3 nights"
+              }
+            ]
+          },
+          {
+            "questionId": "D",
+            "description1": "Your budget for accommodation per night?",
+            "description2": "Please select one",
+            "backgroundImageUrl": "https://www.linkpicture.com/q/Preference_Budget.png",
+            "multiChoice": false,
+            "minNum": 3,
+            "options": [
+              {
+                "imageUrl": "",
+                "optionCode": "D1",
+                "optionDesc": "Less than 1,000 baht"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "D2",
+                "optionDesc": "Within 3,000 baht"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "D3",
+                "optionDesc": "Within 5,000 baht"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "D4",
+                "optionDesc": "Within 7,000 baht"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "D5",
+                "optionDesc": "Within 10,000 baht"
+              },
+              {
+                "imageUrl": "",
+                "optionCode": "D6",
+                "optionDesc": "Above 10,000 baht"
+              }
+            ]
+          }
+        ]
+      },
+      "status": {
+        "code": "1000",
+        "description": null
+      }
+    }
+}''';

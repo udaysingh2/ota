@@ -1,0 +1,26 @@
+{
+    "getCustomerPaymentMethodDetails": {
+      "status": {
+        "code": 1000,
+        "header": "",
+        "description": "Success"
+      },
+      "data": {
+        "cardCurrent": 10,
+        "cardMaximum": 40,
+        "paymentList": [
+          {
+            "paymentMethodId": "1AB23456C7890123D",
+            "sortSequence": 1,
+            "paymentType": "CREDIT_CARD",
+            "cardMask": "***3456",
+            "cardType": "VISA",
+            "nickname": "บัตรของฉัน",
+            "defaultMethodFlag": true,
+            "cardBank": "",
+            "paymentStatus": "ACTIVE"
+          }
+        ]
+      }
+    }
+}

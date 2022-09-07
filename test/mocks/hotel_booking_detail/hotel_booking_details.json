@@ -1,0 +1,210 @@
+{
+  "data": {
+    "bookingDetails": {
+      "data": {
+        "bookingStatus": "CANCELLED",
+        "bookingStatusCode": null,
+        "bookingId": "B2CMMA220210029",
+        "bookingUrn": "H220217-AA-0251",
+        "referenceId": "B2CMMA220210029",
+        "bookingType": "HOTEL",
+        "activityStatus": "USER_CANCELLED",
+        "hotelBookingDetail": {
+          "totalPrice": 1098.9,
+          "hotelDetails": {
+            "cityId": "MA05110041",
+            "hotelId": "MA0711050518",
+            "name": "Courtyard By Marriott Bangkok (SHA Plus)",
+            "countryId": "MA05110001",
+            "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/courtyard_by_marriott_bangkok_(sha_plus)-general1.jpg",
+            "checkInDate": "2022-03-12",
+            "checkOutDate": "2022-03-13",
+            "address": "155/1 Soi mahadlekluang 1, Rajdamri Road, Pathumwan, 10330, Bangkok, Thailand",
+            "phoneNumber": "020399944",
+            "rating": null,
+            "latitude": "13.741104",
+            "longitude": "100.541435",
+            "roomInfo": {
+              "roomOfferName": null,
+              "promoteFlag": "N",
+              "dimension": "30",
+              "doubleBedFlag": "Y",
+              "twinBedFlag": "N",
+              "queenBedflag": null,
+              "smorkingFlag": null,
+              "nonSmorkingFlag": null,
+              "noWindowFlag": "N",
+              "balconyFlag": "Y",
+              "wifiFlag": "y",
+              "maxPaxNbr": "3",
+              "roomFacilities": [
+                {
+                  "code": "MA05080027",
+                  "name": "Tea / Coffee"
+                },
+                {
+                  "code": "MA05080139",
+                  "name": "Bath Robe"
+                },
+                {
+                  "code": "MA05080114",
+                  "name": "Air-condition"
+                },
+                {
+                  "code": "MA20120005",
+                  "name": "Bathtub"
+                },
+                {
+                  "code": "MA20120040",
+                  "name": "Wired Internet"
+                },
+                {
+                  "code": "MA05080101",
+                  "name": "Fruit Basket"
+                },
+                {
+                  "code": "MA05080140",
+                  "name": "Alarm Clock"
+                },
+                {
+                  "code": "MA20120028",
+                  "name": "Shower"
+                },
+                {
+                  "code": "MA05080061",
+                  "name": "Workdesk"
+                },
+                {
+                  "code": "MA05080038",
+                  "name": "TV"
+                },
+                {
+                  "code": "MA20120026",
+                  "name": "Plug Adaptor"
+                },
+                {
+                  "code": "MA20120012",
+                  "name": "Electric Kettle"
+                },
+                {
+                  "code": "MA05080001",
+                  "name": "24 Hrs. Room Service"
+                },
+                {
+                  "code": "MA20120038",
+                  "name": "Toiletries"
+                },
+                {
+                  "code": "MA05080049",
+                  "name": "Water"
+                },
+                {
+                  "code": "MA05080041",
+                  "name": "Minibar"
+                },
+                {
+                  "code": "MA05080002",
+                  "name": "220 Volt"
+                },
+                {
+                  "code": "MA05080106",
+                  "name": "Hairdryer"
+                },
+                {
+                  "code": "MA20120014",
+                  "name": "Fridge"
+                },
+                {
+                  "code": "MA20120023",
+                  "name": "Make up mirror"
+                },
+                {
+                  "code": "MA20120031",
+                  "name": "Slippers"
+                },
+                {
+                  "code": "MA05080110",
+                  "name": "Wi-Fi"
+                }
+              ]
+            },
+            "freeFoodDelivery": false,
+            "roomDetails": [
+              {
+                "type": "Double",
+                "price": "1098.9",
+                "name": "DELUXE",
+                "noOfRoom": "1",
+                "noOfAdult": "2",
+                "noOfChild": "0",
+                "priceOfRoomWithChildMeal": 0,
+                "noOfRoomsAndName": "1 x DELUXE"
+              }
+            ],
+            "facilities": [
+              {
+                "key": "WIFI",
+                "value": null
+              },
+              {
+                "key": "BREAKFAST",
+                "value": null
+              },
+              {
+                "key": "PAYMENT",
+                "value": "instant.payment"
+              }
+            ],
+            "guestInfo": [
+              {
+                "firstName": "nn",
+                "lastName": "alpha",
+                "title": "Khun"
+              },
+              {
+                "firstName": "test1",
+                "lastName": "ds",
+                "title": "Khun"
+              }
+            ],
+            "addOnServices": null,
+            "cancellationPolicy": [
+              {
+                "days": null,
+                "cancellationDaysDescription": null,
+                "cancellationChargeDescription": "Booking Cancel after 09-Mar-22,100 % cancellation charge for the entire service will be applied.No Show - Non Refund",
+                "cancellationStatus": null
+              }
+            ],
+            "totalNights": "1",
+            "totalRooms": "1",
+            "promotion": []
+          },
+          "netPrice": 1098.9,
+          "perNightPrice": 1098.9,
+          "addonPrice": 0,
+          "discount": 0,
+          "amountAdminfee": 0,
+          "amountCancelCharge": 0,
+          "paymentDetails": {
+            "paymentMethod": "CARD",
+            "paymentStatus": "SUCCESS",
+            "cardType": "MASTER",
+            "cardNo": "***5454",
+            "cardNickName": null
+          },
+          "cancellationDate": "2022-02-17",
+          "cancellationReason": "rejected because I can",
+          "totalRefundAmount": 1098.9,
+          "confirmationDate": "2022-02-16"
+        }
+      },
+      "status": {
+        "description": null,
+        "header": "Success",
+        "code": "1000"
+      },
+      "metadata": null
+    }
+  }
+}

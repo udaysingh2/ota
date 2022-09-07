@@ -1,0 +1,29 @@
+{
+	"getTourDetails": {
+		"data": {
+			"tour": {
+				"id": "MA2110000413",
+				"name": "(Place Profile / Place Name) (data/place/name)JJ Green Market Tour",
+				"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+				"locationName": "NONE-Bangkok",
+				"category": "NONE",
+				"information": {
+					"description": "<span>(</span>Place Profile / <span>General ) (data/place/description)</span><div>Every weekend, thousands of tourists make their way up to this Northern Bangkok suburb to get lost in an enormous maze of shops at the Chatuchak Weekend Market. Home to almost 10,000 vendors, you’ll find everything from vintage sneakers to comic books and Thai handicrafts being sold here. You name it, Chatuchak probably sells it. The market is a great place to pick up souvenirs, but be sure to bargain for a good price. After a day of shopping and strolling around, the lush green lanes of Chatuchak Park are a welcome relief.</div>",
+					"conditions": "<div><span>(</span><span>Place Profile / </span><span>Condition</span><span>)(</span><span>data/place/condition</span><span>)</span></div>Chatuchak Market has been open every weekend",
+					"howToUse": "(Place Profile/ <span>How To Use)(data/place/howtouse)</span><div>Chatuchak Weekend Market is a big shopping area. Have many tings to see. If you go alone you may get lost. I come here very often so i will be the best guide for you8iy</div>",
+					"providerName": "Hello We Sell Tour & Tour",
+					"openTime": "10.00",
+					"closeTime": "15.00"
+				},
+				"packages": [
+					
+				]
+			}
+		},
+		"status": {
+			"code": "1000",
+			"header": "success",
+			"description": ""
+		}
+	}
+}

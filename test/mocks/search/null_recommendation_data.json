@@ -1,0 +1,10 @@
+{
+    "getSearchRecommendation": {
+        "data": null,
+        "status": {
+            "code": "1000",
+            "header": "",
+            "description": "success"
+        }
+    }
+}

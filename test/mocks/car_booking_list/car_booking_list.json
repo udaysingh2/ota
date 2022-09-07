@@ -1,0 +1,99 @@
+{
+  "getBookingSummaryV2": {
+    "data": {
+      "totalPageNumber": 2,
+      "bookingDetails": [
+        {
+          "serviceType": "CARRENTAL",
+          "sortDateTime": "2022-05-27T11:00:00",
+          "sortPriority": 3,
+          "car": {
+            "name": "MG ZS",
+            "totalPrice": 3320,
+            "supplierName": "ILO Supplier by Cindy",
+            "bookingUrn": "C220425-AA-0522",
+            "status": "Unsuccessful payment",
+            "bookingSummaryStatus": "PAYMENT_FAILED",
+            "pickupDateTime": "2022-05-27T11:00:00",
+            "returnDateTime": "2022-06-10T11:00:00",
+            "bookingId": null,
+            "activityStatus": null
+          }
+        },
+        {
+          "serviceType": "CARRENTAL",
+          "sortDateTime": "2022-04-26T10:00:00",
+          "sortPriority": 3,
+          "car": {
+            "name": "Nissan Almera",
+            "totalPrice": 1797,
+            "supplierName": "Chic Car Rent",
+            "bookingUrn": "C220426-AA-0522",
+            "status": "Canceled",
+            "bookingSummaryStatus": "CANCELLED",
+            "pickupDateTime": "2022-04-26T10:00:00",
+            "returnDateTime": "2022-04-29T10:00:00",
+            "bookingId": "B2CMMA220421445",
+            "activityStatus": null
+          }
+        },
+        {
+          "serviceType": "CARRENTAL",
+          "sortDateTime": "2022-04-24T11:00:00",
+          "sortPriority": 3,
+          "car": {
+            "name": "Toyota Vios",
+            "totalPrice": 2097,
+            "supplierName": "SIXT",
+            "bookingUrn": "C220425-AA-0533",
+            "status": "Unsuccessful reservation",
+            "bookingSummaryStatus": "REJECTED",
+            "pickupDateTime": "2022-04-24T11:00:00",
+            "returnDateTime": "2022-04-27T15:00:00",
+            "bookingId": null,
+            "activityStatus": null
+          }
+        },
+        {
+          "serviceType": "CARRENTAL",
+          "sortDateTime": "2022-04-18T11:00:00",
+          "sortPriority": 3,
+          "car": {
+            "name": "Toyota Vios",
+            "totalPrice": 2097,
+            "supplierName": "SIXT",
+            "bookingUrn": "C220425-AA-0422",
+            "status": "Canceled",
+            "bookingSummaryStatus": "CANCELLED",
+            "pickupDateTime": "2022-04-18T11:00:00",
+            "returnDateTime": "2022-04-20T15:00:00",
+            "bookingId": "B2CMMA220419902",
+            "activityStatus": null
+          }
+        },
+        {
+          "serviceType": "CARRENTAL",
+          "sortDateTime": "2022-04-18T11:00:00",
+          "sortPriority": 3,
+          "car": {
+            "name": "Toyota Vios",
+            "totalPrice": 2097,
+            "supplierName": "SIXT",
+            "bookingUrn": "C220425-AA-0622",
+            "status": "Unsuccessful payment",
+            "bookingSummaryStatus": "PAYMENT_FAILED",
+            "pickupDateTime": "2022-04-18T11:00:00",
+            "returnDateTime": "2022-04-29T15:00:00",
+            "bookingId": null,
+            "activityStatus": null
+          }
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": null
+    }
+  }
+}

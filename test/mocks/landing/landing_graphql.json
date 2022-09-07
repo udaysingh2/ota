@@ -1,0 +1,185 @@
+{
+    "data": {
+        "getLandingPageDetails": {
+          "data": {
+            "defaultCustomText": "Do you have any plan for holiday?",
+            "backgroundUrl": "https://www.linkpicture.com/q/background_11.png",
+            "businessCards": [
+              {
+                "serviceText": "Hotels",
+                "title": "more than 1,000",
+                "description": "100,000+ Hotels",
+                "imageUrl": "https://www.linkpicture.com/q/hotel_card.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/hotel_card.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/hotel_card.png",
+                "sortSeq": "1",
+                "service": "HOTEL",
+                "deeplinkUrl": "https://robinhood/"
+              },
+              {
+                "serviceText": "Flights",
+                "title": "more than 1,000",
+                "description": "50,000+ Flights",
+                "imageUrl": "https://www.linkpicture.com/q/flights_card.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/flights_card.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/flights_card.png",
+                "sortSeq": "2",
+                "service": "FLIGHT",
+                "deeplinkUrl": "https://robinhood/"
+              },
+              {
+                "serviceText": "Tours and Activites",
+                "title": "more than 1,000",
+                "description": "1,000+ Tours and Activites",
+                "imageUrl": "https://www.linkpicture.com/q/tours_cards.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/tours_cards.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/tours_cards.png",
+                "sortSeq": "3",
+                "service": "TOUR",
+                "deeplinkUrl": "https://robinhood/"
+              },
+              {
+                "serviceText": "Car rentals",
+                "title": "more than 1,000",
+                "description": "20,000+ Car rentals",
+                "imageUrl": "https://www.linkpicture.com/q/cars_card.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/cars_card.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/cars_card.png",
+                "sortSeq": "4",
+                "service": "CARRENTAL",
+                "deeplinkUrl": "https://robinhood/"
+              },
+              {
+                "serviceText": "Insurances",
+                "title": "more than 1,000",
+                "description": "20,000+ Insurances",
+                "imageUrl": "https://www.linkpicture.com/q/insurance_card.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/insurance_card.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/insurance_card.png",
+                "sortSeq": "5",
+                "service": "INSURANCE",
+                "deeplinkUrl": "https://robinhood/"
+              },
+              {
+                "serviceText": "Special Deals",
+                "title": "more than 1,000",
+                "description": "20,000+ Special Deals",
+                "imageUrl": "https://www.linkpicture.com/q/view_all_card.png",
+                "largeImageUrl": "https://www.linkpicture.com/q/view_all_card.png",
+                "serviceBackgroundUrl": "https://www.linkpicture.com/q/view_all_card.png",
+                "sortSeq": "6",
+                "service": "DEALS",
+                "deeplinkUrl": "https://robinhood/"
+              }
+            ],
+            "banner": [
+              {
+                "bannerId": "1",
+                "type": "GLOBAL",
+                "startDate": "2021-09-06T08:44:39",
+                "endDate": "2021-11-24T08:44:39",
+                "priority": "1",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "EXTERNAL",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "3",
+                "type": "GLOBAL",
+                "startDate": "2021-09-07T08:44:39",
+                "endDate": "2022-02-24T08:44:39",
+                "priority": "2",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "DEEPLINK",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "2",
+                "type": "GLOBAL",
+                "startDate": "2021-07-24T08:44:39",
+                "endDate": "2021-10-24T08:44:39",
+                "priority": "2",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": null,
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "13",
+                "type": "GLOBAL",
+                "startDate": "2021-03-24T08:44:39",
+                "endDate": "2022-02-24T08:44:39",
+                "priority": "2",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "DEEPLINK",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "4",
+                "type": "GLOBAL",
+                "startDate": "2021-03-24T08:44:39",
+                "endDate": "2022-02-24T08:44:39",
+                "priority": "2",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "DEEPLINK",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "9999999999999999",
+                "type": "GLOBAL",
+                "startDate": "2021-03-29T08:44:39",
+                "endDate": "2021-12-24T08:44:39",
+                "priority": "3",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "DEEPLINK",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              },
+              {
+                "bannerId": "6",
+                "type": "GLOBAL",
+                "startDate": "2021-03-29T08:44:39",
+                "endDate": "2021-12-24T08:44:39",
+                "priority": "3",
+                "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+                "deeplinkUrl": null,
+                "deeplinkType": "DEEPLINK",
+                "function": "OTA_LANDING",
+                "orderSection": "1"
+              }
+            ],
+            "popups": [{"popupId": "1",
+              "type": "GLOBAL",
+              "startDate": "2020-07-24 08:44:39",
+              "endDate": "2020-07-24 08:44:39",
+              "priority": "1",
+              "imageFilename": "banner1_${lang}.jpg",
+              "deeplinkUrl": "http://img01-deeplink-${lang}",
+              "deeplinkType": "3",
+              "function": "OTA_LANDING",
+              "orderSection": "1"}],
+              "promotions": [
+            {
+              "hotelId": "MA0909060653",
+              "promotionText": "Special deal for robinhood"
+            }
+          ]
+          },
+          "status": {
+            "code": "1000",
+            "header": "Success",
+            "description": "Success"
+          }
+        }
+      }
+}

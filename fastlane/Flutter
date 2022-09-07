@@ -1,0 +1,10 @@
+# fastlane run_ota_script
+desc "Run OTA Script"
+lane :run_ota_script do |options|
+  xcversion(version: "13.2.1")
+  Dir.chdir("../archive_builder") do
+    sh 'chmod 777 build_for_superApp.sh'
+    build_params = options[:build_params] || 'robinhood.flutter.ota'
+    sh "sh build_for_prod.sh #{build_params} PROD"
+  end
+end

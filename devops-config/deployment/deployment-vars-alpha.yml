@@ -1,0 +1,8 @@
+---
+# Source: environment/templates/devops-config/deployment/deployment-vars-{{env}}.yml
+# This file was generated at  using generator Version: 
+
+DEPLOYMENT:
+    ENV: alpha
+    ANDROID_APP_ID: "1:465744335200:ios:359f5a5d86c3f2b7aa4e05"
+    IOS_APP_ID: "1:465744335200:ios:fbc613fd79cf01d6aa4e05"

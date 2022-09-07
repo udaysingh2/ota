@@ -1,0 +1,49 @@
+{
+    
+      "getPlaylists": {
+        "staticPlaylist": {
+          "source": "null",
+          "serviceName": "HOTEL",
+          "playlist": [
+            {
+              "playlistId": "333",
+              "playlistName": "Activity recommend -1",
+              "cardList": [
+                {
+                  "id": "MA2111000070",
+                  "cityId": "MA05110041",
+                  "countryId": "MA05110001",
+                  "imageUrl": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/wat-arun.jpg",
+                  "countryName": "null",
+                  "name": "Wat Arun(Holiday by RBH)",
+                  "locationName": "Yaowaraj,Bangkok",
+                  "locationId": "null",
+                  "cityName": "Bangkok",
+                  "styleName": "CULTURAL",
+                  "startPrice": 800,
+                  "productType": "null",
+                  "address": "null",
+                  "address1": "null",
+                  "rating": 0,
+                  "review": {
+                      "score": 4,
+                      "numReview": 10,
+                      "description": "superb"
+                    },
+                  "promotionText_line1": "null",
+                  "promotionText_line2": "null",
+                  "capsulePromotion": [
+                      {
+                        "name": "cap1",
+                        "code": "007"
+                      }
+                    ],
+                  "infopromotion": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    
+  }

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "loadTranslation": {
+            "data": {
+                "th": [
+                    {
+                        "name": "priceOfThisEvent",
+                        "value": "thaivalue"
+                    },
+                    {
+                        "name": "excessiveWaitAmount",
+                        "value": "thaivalue"
+                    },
+                    {
+                        "name": "save",
+                        "value": "thaivalue"
+                    },
+                    {
+                        "name": "arrivalTime",
+                        "value": "thaivalue"
+                    }
+                ]
+            }
+        }
+    }
+}

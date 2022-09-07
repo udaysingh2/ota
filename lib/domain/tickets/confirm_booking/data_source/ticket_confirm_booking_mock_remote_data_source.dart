@@ -1,0 +1,111 @@
+import 'package:ota/domain/tickets/confirm_booking/data_source/ticket_confirm_booking_remote_data_source.dart';
+import 'package:ota/domain/tickets/confirm_booking/models/ticket_confirm_booking_model_domain.dart';
+import 'package:ota/domain/tours/confirm_booking/models/confirm_booking_argument_domain.dart';
+
+class TicketConfirmBookingMockDataSourceImpl
+    implements TicketConfirmBookingRemoteDataSource {
+  TicketConfirmBookingMockDataSourceImpl();
+
+  @override
+  Future<TicketConfirmBookingModelDomain> getTicketConfirmBookingData(
+      ConfirmBookingArgumentDomain argument) async {
+    await Future.delayed(const Duration(seconds: 1));
+    return TicketConfirmBookingModelDomain.fromJson(_responseMock);
+  }
+}
+
+var _responseMock = '''{
+	"getTicketBookingConfirmation": {
+		"data": {
+			"bookingUrn": "TT220120-AA-0026",
+			"ticketId": "MA2111000168",
+			"cityId": "MA05110041",
+			"countryId": "MA05110001",
+			"bookingDate": "2022-01-22",
+			"name": "Dream World(Hello We Sell Tour & Ticket)",
+			"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/dream-world--ma2111000168-general1.jpeg",
+			"location": "Rangsit-Bangkok",
+			"category": "Rangsit-Bangkok",
+      "startTimeAMPM": "09:00 AM",
+      "promotionList": [{
+							"productType": "ACTIVITY",
+							"promotionCode": "FREEDELIVERY",
+							"title": "Free Food Delivery",
+							"description": "Book Now! Free Robinhood Delivery. Unlimited deliveries up to 7 days! Reserve from Now - 30 September 2022",
+							"web": "https://cms.robinhood.in.th/archives/2869"
+						}],
+			"packageDetail": {
+				"name": "Dream World(Hello We Sell Tour & Ticket)",
+				"inclusions": {
+					"highlights": [{
+							"key": "ticketTime",
+							"value": "Full day tour starts at 09:00 AM"
+						},
+						{
+							"key": "isNonRefund",
+							"value": "Refundable"
+						}
+					],
+					"all": "<div>ราคารวมถึง</div><div>ค่าผ่านประตู</div><div>เล่นเครื่องเล่นได้ไม่จำกัดรอบ รวมถึงเมืองหิมะ, โกคาร์ต, เรือถีบ, และเรือบั๊ม</div><div><br></div>"
+				},
+				"cancellationPolicy": "You have to cancel 2 day(s) prior to the service date., Otherwise cancellation charge of Full Charge from Grand total will be applied.-Booking Cancel after 18-Jan-2022, Otherwise cancellation charge of Full Charge from Grand total will be applied.",
+				"ticketTypes": [{
+						"paxId": "MA21110020",
+						"name": "เด็ก 4-11 ปี",
+						"price": 50,
+						"noOfTickets": 1
+					},
+					{
+						"paxId": "MA21110021",
+						"name": "ผู้ใหญ่",
+						"price": 100,
+						"noOfTickets": 1
+					}
+				],
+				"duration": "8",
+				"durationText": "8 hours "
+			},
+			"totalAmount": 100.5,
+			"totalFees": 0,
+			"totalTaxes": 0,
+			"totalDiscount": 0,
+			"noOfDays": "1",
+			"customerInfo": {
+				"firstName": "fName",
+				"lastName": "lName",
+				"email": "c-email",
+				"phoneNumber": "phn"
+			},
+			"participantInfo": [{
+					"paxId": "MA21110021",
+					"name": "ผู้ใหญ่",
+					"surname": "ผู้ใหญ่",
+					"weight": "80 Kg",
+					"dateOfBirth": "1988-01-22",
+					"passportCountry": "Tailand",
+					"passportNumber": "123456789",
+					"passportCountryIssue": "Tailand",
+					"expiryDate": "2026-01-08"
+				},
+				{
+					"paxId": "MA21110020",
+					"name": "ผู้ใหญ่",
+					"surname": "เด็ก 4-11 ปี",
+					"weight": "20 Kg",
+					"dateOfBirth": "2000-01-22",
+					"passportCountry": "Tailand",
+					"passportNumber": "12345678473",
+					"passportCountryIssue": "Tailand",
+					"expiryDate": "2026-01-08"
+				}
+			]
+		},
+		"status": {
+			"code": "1000",
+			"header": "Success",
+			"description": null
+		}
+	}
+
+}
+	''';

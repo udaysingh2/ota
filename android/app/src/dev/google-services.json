@@ -1,0 +1,555 @@
+{
+  "project_info": {
+    "project_number": "465744335200",
+    "firebase_url": "https://robinhood-f74c9.firebaseio.com",
+    "project_id": "robinhood-f74c9",
+    "storage_bucket": "robinhood-f74c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:30d02d634135935baa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-m2vkjo6bm78sis1lf1c9q2grk2rhgo4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.robinhood.dev",
+            "certificate_hash": "ad7f7a7fb14109dde7244856d87c0a8f69422aca"
+          }
+        },
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:b9a9cb865016ac5caa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.dev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-i6poetrenpknloibu8btj712ih6arib0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.robinhood.dev2",
+            "certificate_hash": "ad7f7a7fb14109dde7244856d87c0a8f69422aca"
+          }
+        },
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:ffc83eccf91291a4aa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.merchant.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:2d31e60216cffebaaa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.merchant.preprod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:b36c91c0b260b67aaa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.merchant.ps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:65f7527f1715165daa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.merchant.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:34775a5168324924aa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.ota.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:cc6c3bfcd2641adcaa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.ota.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:5d91ebf32c93d050aa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.preprod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-qcski81tbjsqk68hhkn3nn1vvbhgf66g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.robinhood.preprod",
+            "certificate_hash": "ad7f7a7fb14109dde7244856d87c0a8f69422aca"
+          }
+        },
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:3497e2e855aed233aa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.ps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-pt758bonpfg45dn0b8hggdn16l3n83jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.robinhood.ps",
+            "certificate_hash": "ad7f7a7fb14109dde7244856d87c0a8f69422aca"
+          }
+        },
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:67257ae70a5df9fcaa4e05",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-g4mjvg1cqlkd3avfh3m403t89joo7nm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.robinhood.qa",
+            "certificate_hash": "ad7f7a7fb14109dde7244856d87c0a8f69422aca"
+          }
+        },
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:409343abe00efdf9aa4e05",
+        "android_client_info": {
+          "package_name": "th.in.robinhood.rider.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:2fa5a61e46b6024faa4e05",
+        "android_client_info": {
+          "package_name": "th.in.robinhood.rider.preprod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744335200:android:72daaf95c727e301aa4e05",
+        "android_client_info": {
+          "package_name": "th.in.robinhood.rider.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrG1sIxuYJ5BKdTjAICKUk6jnM5dbVpcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744335200-8m2v260u1k3o539gtb5p9tj3ijblp2va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465744335200-4tsfh7i6anig5jrcvm0918a7ls1uqgnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.in.robinhood.rider.qa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

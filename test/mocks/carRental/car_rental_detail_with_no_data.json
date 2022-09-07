@@ -1,0 +1,30 @@
+{
+    "getCarRentalDetails": {
+        "data": {
+            "carInfo": {
+                "brand": "Toyota",
+                "crafttype": "Medium cars",
+                "images": {
+                    "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/vios-2-1.jpg",
+                    "full": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-1.jpg"
+                },
+                "name": "Vios"
+            },
+            "carDetail": {
+                "id": "11",
+                "supplier": {
+                    "id": "MA2111000062",
+                    "name": "Krungthai Car Rent & Lease PLC",
+                    "logo": {
+                        "url": "https://trbhmanage.travflex.com/ImageData/Supplier/krungthai_car_rent___lease_plc-logo.gif"
+                    }
+                },
+                "car": null
+            }
+        },
+        "status": {
+            "code": "1000",
+            "header": "Success"
+        }
+    }
+}

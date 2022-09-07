@@ -1,0 +1,9 @@
+{
+    "getRoomImages": {
+      "status": {
+        "description": null,
+        "header": "Success",
+        "code": "1000"
+      }
+    }
+  }

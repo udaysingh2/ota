@@ -1,0 +1,22 @@
+{
+  "getRecommendedLocation": {
+    "data": {
+      "locationList": [
+        {
+          "playlistId": "123",
+          "searchKey": "Banklangna Homestay",
+          "serviceTitle": "Shangri La Bangkok",
+          "hotelId": "MA15061431",
+          "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/shangri_la_bangkok-general1.jpg",
+          "countryId": "MA05110001",
+          "cityId": "MA05110041"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": null
+    }
+  }
+}

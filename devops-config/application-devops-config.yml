@@ -1,0 +1,38 @@
+---
+
+variables:
+    ## This corresponds to the central pipeline archetype. It should be same as specified in .gitlab-ci.yml. It is used to select the correspond archetype artifacts from pipeline-helper.
+    APP_PIPELINE_ARCHETYPE: ota-flutter
+
+    ## This is the Archetype category 
+    APP_PIPELINE_ARCHETYPE_CATEGORY: mobile    
+
+    ## This is the Archetype versionm corresponding to the pipeline archetype of the service. It should be same as specified in .gitlab-ci.yml. It is used to select the correspond archetype artifacts from pipeline-helper.
+    APP_ARCHETYPE_VERSION: '1.0'
+    
+    ## This contains the list of overrides that individual service can override. For a possible list of all configuration see below:
+    ## Application overrides
+    #########################################################################
+    ## This is the name by which deployment in kubernetes will be created. Typically, this is the service name without special character/ spaces.
+    APP_SERVICE_NAME: mobile-app
+
+    ## This is the CMDB ID of the service used to identfy uniquely. It is used to generate the unique soanr project Id.
+    APP_SERVICE_ID: techx:ota:mobile-app
+ 
+    APP_MAIN_MODULE: ./
+
+    # Job Toggles for enabling/disabling pipeline stages
+    JOB_TOGGLE_FLUTTER_ANALYZE: '0'
+
+    JOB_TOGGLE_FLUTTER_TEST: '0'
+
+    TOGGLE_FLUTTER_IOS_BUILD: '0'
+
+    JOB_TOGGLE_CODE_QUALITY_CHECK: '1'
+
+    JOB_TOGGLE_COVERAGE_CHECK: '1'
+
+   
+    SONAR_SOURCE: lib/
+
+    SONAR_COVERAGE_EXCLUSIONS: lib/debug_helper/*.dart,lib/modules/authentication/model/login_model.dart,lib/modules/splash/view/splash_screen.dart

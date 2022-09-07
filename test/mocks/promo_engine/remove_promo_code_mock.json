@@ -1,0 +1,17 @@
+{
+  "removePromoCode": {
+    "data": {
+      "removed": true,
+      "priceDetails": {
+        "orderPrice": 200.0,
+        "addonPrice": 200.0,
+        "totalAmount": 400.0
+      }
+    },
+    "status": {
+      "code": "1000",
+      "header": "",
+      "description": "Success"
+    }
+  }
+}

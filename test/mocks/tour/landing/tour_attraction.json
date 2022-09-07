@@ -1,0 +1,27 @@
+{
+  "getTourServiceSuggestions": {
+    "data": {
+      "locationList": [
+        {
+          "serviceTitle": "พัทยา",
+          "searchKey": "พัทยา",
+          "cityId": "MA05110908",
+          "countryId": "MA05110001",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/suggestion/OTAImage4.jpg"
+        },
+        {
+          "serviceTitle": "กรุงเทพมหานคร",
+          "searchKey": "กรุงเทพมหานคร",
+          "cityId": "MA05110908",
+          "countryId": "MA05110001",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/suggestion/OTAImage4.jpg"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "success",
+      "description": ""
+    }
+  }
+}

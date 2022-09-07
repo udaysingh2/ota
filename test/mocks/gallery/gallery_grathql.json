@@ -1,0 +1,16 @@
+{
+	"data": {
+		"getImages": {
+			"data": {
+				"images": {
+					"baseUri": "https://manage.robinhood.in.th/ImageData/Hotel/",
+					"gallery": ["amora_neoluxe_bangkok-room2.jpg", "amora_neoluxe_bangkok-facility2.jpg", "mora_neoluxe_bangkok-general1.jpg", "amora_neoluxe_bangkok-facility3.jpg", "amora_neoluxe_bangkok-room3.jpg", "amora_neoluxe_bangkok-facility1.jpg", "amora_neoluxe_bangkok-room1.jpg", "amora_neoluxe_bangkok-general2.jpg"]
+				}
+			},
+			"status": {
+				"code": "1000",
+				"header": "Success"
+			}
+		}
+	}
+}

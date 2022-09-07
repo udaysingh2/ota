@@ -1,0 +1,23 @@
+{
+  "serviceType": "TOUR",
+  "name": "Wat Arun",
+  "totalPrice": 150.0,
+  "bookingDate": "2022-03-04",
+  "bookingUrn": "TR220303-AA-0029",
+  "status": "CONFIRMED",
+  "startTimeAMPM": "08:00 น",
+  "paymentStatus": "CONFIRMED",
+  "bookingId": "B2CMMA220312133",
+  "tour": {
+    "subServiceType": "TICKET",
+    "name": "Wat Arun",
+    "totalPrice": 1958.24,
+    "startTimeAMPM": "09:00 AM",
+    "bookingUrn": "TT220302-AA-0005",
+    "status": "CONFIRMED",
+    "bookingDate": "2022-03-10",
+    "bookingId": "B2CMMA220311171",
+    "paymentStatus": "CONFIRMED",
+    "activityStatus": "CONFIRMED"
+  }
+}

@@ -1,0 +1,166 @@
+{"playlist": [
+  {
+    "playlistId": "55555",
+    "playlistName": "โรงแรมแนะนำพิเศษ",
+    "cardList": [
+      {
+        "id": "MA1111000019",
+        "cityId": "MA05110041",
+        "countryId": "MA05110001",
+        "imageUrl": "https://train.travflex.com/ImageData/Hotel/amora_neoluxe_bangkok-general1.jpg",
+        "countryName": null,
+        "name": "โรงแรมอโรม่า",
+        "locationName": "",
+        "locationId": null,
+        "cityName": "กรุงเทพ",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 4,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [
+          {
+            "name": "Free Food Delivery",
+            "code": "FREE01"
+          }
+        ],
+        "infopromotion": []
+      },
+      {
+        "id": "MA0603000157",
+        "cityId": "MA05110041",
+        "countryId": "MA05110001",
+        "imageUrl": "https://train.travflex.com/ImageData/Hotel/amora_neoluxe_bangkok-general1.jpg",
+        "countryName": null,
+        "name": "เชียงใหม่ภูคำ",
+        "locationName": "",
+        "locationId": null,
+        "cityName": "เชีบงใหม่",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 3,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [
+          {
+            "name": "Free Food Delivery",
+            "code": "FREE01"
+          }
+        ],
+        "infopromotion": []
+      },
+      {
+        "id": "MA0603000037",
+        "cityId": "MA05110908",
+        "countryId": "MA05110001",
+        "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/pattaya_hiso-general1.jpg",
+        "countryName": null,
+        "name": "พัทยาไฮโซ",
+        "locationName": "พัทยา",
+        "locationId": null,
+        "cityName": "ชลบุรี",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 3,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [],
+        "infopromotion": []
+      }
+    ]
+  },
+  {
+    "playlistId": "55556",
+    "playlistName": "โรงแรมแนะนำพิเศษ",
+    "cardList": [
+      {
+        "id": "MA1111000019",
+        "cityId": "MA05110041",
+        "countryId": "MA05110001",
+        "imageUrl": "https://train.travflex.com/ImageData/Hotel/amora_neoluxe_bangkok-general1.jpg",
+        "countryName": null,
+        "name": "โรงแรมอโรม่า",
+        "locationName": "",
+        "locationId": null,
+        "cityName": "กรุงเทพ",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 4,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [
+          {
+            "name": "Free Food Delivery",
+            "code": "FREE01"
+          }
+        ],
+        "infopromotion": []
+      },
+      {
+        "id": "MA0603000157",
+        "cityId": "MA05110041",
+        "countryId": "MA05110001",
+        "imageUrl": "https://train.travflex.com/ImageData/Hotel/amora_neoluxe_bangkok-general1.jpg",
+        "countryName": null,
+        "name": "เชียงใหม่ภูคำ",
+        "locationName": "",
+        "locationId": null,
+        "cityName": "เชีบงใหม่",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 3,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [
+          {
+            "name": "Free Food Delivery",
+            "code": "FREE01"
+          }
+        ],
+        "infopromotion": []
+      },
+      {
+        "id": "MA0603000037",
+        "cityId": "MA05110908",
+        "countryId": "MA05110001",
+        "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/pattaya_hiso-general1.jpg",
+        "countryName": null,
+        "name": "พัทยาไฮโซ",
+        "locationName": "พัทยา",
+        "locationId": null,
+        "cityName": "ชลบุรี",
+        "styleName": null,
+        "startPrice": 0,
+        "productType": "HOTEL",
+        "address": null,
+        "address1": null,
+        "rating": 3,
+        "review": null,
+        "promotionText_line1": null,
+        "promotionText_line2": null,
+        "capsulePromotion": [],
+        "infopromotion": []
+      }
+    ]
+  }
+]}

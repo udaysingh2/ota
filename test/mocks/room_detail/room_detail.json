@@ -1,0 +1,80 @@
+{
+	"data": {
+		"getRoomDetailsV2": {
+			"data": {
+				"mealType": "Room Only with Breakfast",
+				"roomImage": null,
+				"roomCategories": [
+					{
+						"roomName": "DELUXE BALCONY ROOM",
+						"roomType": "Double",
+						"noOfRooms": 1
+					}
+				],
+				"facilities": [
+					{
+						"key": "WIFI",
+						"value": "free.wifi"
+					},
+					{
+						"key": "BREAKFAST",
+						"value": "1"
+					},
+					{
+						"key": "DOUBLE_BED_FLAG",
+						"value": "Y"
+					},
+					{
+						"key": "PAYMENT",
+						"value": "instant.payment"
+					}
+				],
+				"cancellationPolicy": [
+					{
+						"days": 3,
+						"cancellationDaysDescription": "You have to cancel 3 day(s) prior to the service date.",
+						"cancellationChargeDescription": "Otherwise cancellation charge of Full Charge from Grand total will be applied.",
+						"cancellationStatus": "conditional.cancellation"
+					},
+					{
+						"days": 14,
+						"cancellationDaysDescription": "You have to cancel 14 day(s) prior to the service date.",
+						"cancellationChargeDescription": "Otherwise 1 night per room cancellation charge will be applied.",
+						"cancellationStatus": "conditional.cancellation"
+					},
+					{
+						"days": 7,
+						"cancellationDaysDescription": "You have to cancel 7 day(s) prior to the service date.",
+						"cancellationChargeDescription": "Otherwise 50 % cancellation charge for the entire stay will be applied.",
+						"cancellationStatus": "conditional.cancellation"
+					}
+				],
+				"roomFacilities": [
+					"Non Smoking Room",
+					"Bath Robe",
+					"Air-condition",
+					"Hairdryer",
+					"Radio",
+					"Fridge",
+					"TV",
+					"Make up Mirror",
+					"Telephone",
+					"CD Player",
+					"24 Hrs. Room Service",
+					"Babycot",
+					"Electric Kettle",
+					"Alarm Clock",
+					"Bathtub",
+					"Minibar",
+					"Workdesk",
+					"IDD Phone"
+				],
+				"totalPrice": 5040
+			},
+			"status": {
+				"code": "1000",
+				"header": "Success"
+			}
+		}
+	}
+}

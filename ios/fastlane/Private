@@ -1,0 +1,30 @@
+require 'yaml'
+
+FILENAME_PREFIX = 'Runner'
+PROVISION_PROFILE_CONFIG = 'provisioning_profiles.yml'
+
+private_lane :map_environment_to_export_method do |options|
+    if options[:environment].nil?
+      'enterprise'
+    else
+      (options[:environment].downcase == 'prod' ? 'app-store' : 'enterprise')
+    end
+  end
+
+private_lane :map_export_options do |options|
+    provisioning_profiles = provisioning_profiles || {
+        "match InHouse th.co.robinhood.ota.dev" => "OTA Distribution"
+    }
+    if options[:environment].nil? || options[:environment].downcase != 'prod'
+    {
+      method: "release",
+      compileBitcode: false,
+      provisioningProfiles: provisioning_profiles,
+      signingCertificate: "Apple Distribution",
+      signingStyle: "manual",
+      stripSwiftSymbols: true,
+      teamID: "WF47643S5X",
+      thinning: "<none>"
+    }
+  end
+end

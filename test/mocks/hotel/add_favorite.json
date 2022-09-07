@@ -1,0 +1,9 @@
+{
+		"addFavorite": {
+			"status": {
+				"code": "1899",
+				"header": "Limit exceeded",
+				"description": "User is not authenticated"
+			}
+		}
+	}

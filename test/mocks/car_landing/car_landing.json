@@ -1,0 +1,42 @@
+{
+  "data": {
+    "getCarRentalRecentSearches": {
+      "data": {
+        "searchHistory": [
+          {
+            "carRental": {
+              "carRecentSearchList": [
+                {
+                  "age": 30,
+                  "pickupLocationId": "MA028107839914",
+                  "pickupLocationName": "Chiang Mai 11International",
+                  "returnLocationName" :"Chiang Mai 11International",
+                  "pickupTime": "10:00:00",
+                  "returnTime": "15:00:00",
+                  "returnLocationId": "MA08030095",
+                  "pickupDate": "2022-05-01",
+                  "returnDate": "2022-05-03"
+                },
+                {
+                  "age": 30,
+                  "pickupLocationId": "MA028107839914",
+                  "pickupLocationName": "International",
+                  "returnLocationName" :"Chiang Mai ",
+                  "pickupTime": "10:00:00",
+                  "returnTime": "15:00:00",
+                  "returnLocationId": "MA08030095",
+                  "pickupDate": "2022-05-01",
+                  "returnDate": "2022-05-03"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "status": {
+        "code": "1000",
+        "header": "Success"
+      }
+    }
+  }
+}

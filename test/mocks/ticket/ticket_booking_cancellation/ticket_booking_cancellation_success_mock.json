@@ -1,0 +1,15 @@
+{
+  "getTicketBookingReject": {
+    "data": {
+      "actionStatus": "success",
+      "cancellationDate": null,
+      "totalAmount": null,
+      "refund": null
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": null
+    }
+  }
+}

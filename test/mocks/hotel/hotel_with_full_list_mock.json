@@ -1,0 +1,562 @@
+{
+    "getHotelDetails": {
+        "data": {
+            "id": "MA0711050518",
+            "name": "Courtyard By Marriott Bangkok (SHA Plus)",
+            "rating": "4",
+            "freefoodDelivery": true,
+            "ratingCount": 9.5,
+            "ratingText": "Superb",
+            "location": "Rajdamri Bangkok",
+            "address": "155/1 Soi mahadlekluang 1, Rajdamri Road, Pathumwan, 10330, Bangkok, Thailand",
+            "isFavourite": null,
+            "images": {
+                "baseUri": "https://trbhmanage.travflex.com/ImageData/Hotel/",
+                "cover": "courtyard_by_marriott_bangkok_(sha_plus)-general1.jpg",
+                "galleryCount": 35,
+                "gallery": [
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room6.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general16.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general33.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general7.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general6.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room3.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general5.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general35.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room5.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general13.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room2.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room1.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general12.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general8.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general21.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general4.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general15.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general14.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general19.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general18.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general1.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general11.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general9.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general24.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general10.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general34.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general32.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general22.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general31.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general17.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-room4.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general20.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general23.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general2.jpg",
+                    "courtyard_by_marriott_bangkok_(sha_plus)-general3.jpg"
+                ]
+            },
+            "facilities": {
+                "list": [
+                    {
+                        "key": "SWIM",
+                        "value": "Swimming Pool"
+                    },
+                    {
+                        "key": "FITNESS",
+                        "value": "Health Fitness"
+                    },
+                    {
+                        "key": "RESTAURANTS",
+                        "value": "Restaurants"
+                    },
+                    {
+                        "key": "PARKING",
+                        "value": "Parking"
+                    },
+                    {
+                        "key": "LAUNDRY",
+                        "value": "Laundry"
+                    },
+                    {
+                        "key": "ROOM_SRV",
+                        "value": "24 Hrs. Room Service"
+                    },
+                    {
+                        "key": "SPA",
+                        "value": "Health and Fitness"
+                    },
+                    {
+                        "key": "AIR_COND",
+                        "value": "Air-condition"
+                    },
+                    {
+                        "key": "ROOM_SRV",
+                        "value": "24 Hrs. Room Service"
+                    },
+                    {
+                        "key": "TOILETERIES",
+                        "value": "Toiletries"
+                    },
+                    {
+                        "key": "W_INTERNET",
+                        "value": "Wired Internet"
+                    },
+                    {
+                        "key": "DESK",
+                        "value": "Workdesk"
+                    },
+                    {
+                        "key": "TUB",
+                        "value": "Bathtub"
+                    },
+                    {
+                        "key": "BABY_COT",
+                        "value": "Babycot"
+                    },
+                    {
+                        "key": "H_DRYER",
+                        "value": "Hairdryer"
+                    },
+                    {
+                        "key": "DEPOSIT_BOX",
+                        "value": "Safe Deposit Box"
+                    },
+                    {
+                        "key": "SWIMMING",
+                        "value": "Swimming Pool"
+                    },
+                    {
+                        "key": "SWIM",
+                        "value": "Swimming Pool"
+                    },
+                    {
+                        "key": "PARKING",
+                        "value": "Parking"
+                    },
+                    {
+                        "key": "LAUNDRY",
+                        "value": "Laundry"
+                    }
+                ],
+                "main": [
+                    {
+                        "key": "WIFI",
+                        "value": "0"
+                    },
+                    {
+                        "key": "SWIM",
+                        "value": "1"
+                    },
+                    {
+                        "key": "FITNESS",
+                        "value": "1"
+                    },
+                    {
+                        "key": "RESTAURANTS",
+                        "value": "1"
+                    },
+                    {
+                        "key": "PARKING",
+                        "value": "1"
+                    },
+                    {
+                        "key": "LAUNDRY",
+                        "value": "1"
+                    },
+                    {
+                        "key": "ROOM_SRV",
+                        "value": "1"
+                    },
+                    {
+                        "key": "SPA",
+                        "value": "1"
+                    }
+                ]
+            },
+            "promotionList":[
+                {
+                "title":"title",
+                "description":"description",
+                "line1":"Free Food Delivery",
+                "line2":"20 % discount",
+                "web": "web",
+                "imageIconUrl":"url",
+                 "promotionCode":"code",
+                "bannerDescDisplay":true,
+                 "productId":"id",
+                  "productType":"type",
+                 "promotionType":"type"
+           
+            }
+        ],
+            "rooms": [
+                {
+                    "roomName": "Deluxe double",
+                    "roomInfo": {
+                        "roomImageCount": 20,
+                        "coverImage": "https://train.travflex.com/ImageData/Hotel/zayn_hotel_bangkok_(sha)-overview1.jpg",
+                        "roomFacilityInfo": "",
+                        "description": "",
+                        "promoteFlag": "N",
+                        "dimension": "40 SQM",
+                        "totalRoom": "20",
+                        "doubleBedFlag": "Y",
+                        "twinBedFlag": "N",
+                        "queenBedflag": "N",
+                        "smorkingFlag": "N",
+                        "nonSmorkingFlag": "Y",
+                        "noWindowFlag": "N",
+                        "balconyFlag": "Y",
+                        "wifiFlag": "Y",
+                        "maxPaxNbr": "3",
+                        "roomFacilities": [
+                            {
+                                "code": "MA05080027",
+                                "name": "Tea / Coffee"
+                            },
+                            {
+                                "code": "MA05080139",
+                                "name": "Bath Robe"
+                            },
+                            {
+                                "code": "MA05080114",
+                                "name": "Air-condition"
+                            },
+                            {
+                                "code": "MA20120005",
+                                "name": "Bathtub"
+                            },
+                            {
+                                "code": "MA20120040",
+                                "name": "Wired Internet"
+                            },
+                            {
+                                "code": "MA05080101",
+                                "name": "Fruit Basket"
+                            },
+                            {
+                                "code": "MA05080140",
+                                "name": "Alarm Clock"
+                            },
+                            {
+                                "code": "MA20120028",
+                                "name": "Shower"
+                            },
+                            {
+                                "code": "MA05080061",
+                                "name": "Workdesk"
+                            },
+                            {
+                                "code": "MA05080038",
+                                "name": "TV"
+                            },
+                            {
+                                "code": "MA20120026",
+                                "name": "Plug Adaptor"
+                            },
+                            {
+                                "code": "MA20120012",
+                                "name": "Electric Kettle"
+                            },
+                            {
+                                "code": "MA05080001",
+                                "name": "24 Hrs. Room Service"
+                            },
+                            {
+                                "code": "MA20120038",
+                                "name": "Toiletries"
+                            },
+                            {
+                                "code": "MA05080049",
+                                "name": "Water"
+                            },
+                            {
+                                "code": "MA05080041",
+                                "name": "Minibar"
+                            },
+                            {
+                                "code": "MA05080002",
+                                "name": "220 Volt"
+                            },
+                            {
+                                "code": "MA05080106",
+                                "name": "Hairdryer"
+                            },
+                            {
+                                "code": "MA20120014",
+                                "name": "Fridge"
+                            },
+                            {
+                                "code": "MA20120023",
+                                "name": "Make up mirror"
+                            },
+                            {
+                                "code": "MA20120031",
+                                "name": "Slippers"
+                            },
+                            {
+                                "code": "MA05080110",
+                                "name": "Wi-Fi"
+                            }
+                        ]
+                    },
+                    "facility": [
+                        {
+                            "key": "WIFI",
+                            "value": "0"
+                        },
+                        {
+                            "key": "SWIM",
+                            "value": "1"
+                        },
+                        {
+                            "key": "FITNESS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "RESTAURANTS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "PARKING",
+                            "value": "1"
+                        },
+                        {
+                            "key": "LAUNDRY",
+                            "value": "1"
+                        },
+                        {
+                            "key": "ROOM_SRV",
+                            "value": "1"
+                        },
+                        {
+                            "key": "SPA",
+                            "value": "1"
+                        }
+                    ],
+                    "details": [
+                        {
+                            "roomCode": "MA05110034",
+                            "roomOfferName": "Deluxe with room only",
+                            "roomType": "Double",
+                            "nightPrice": 1098.9,
+                            "noOfRoomsAndName": "1 x DELUXE",
+                            "nightPriceBeforeDiscount": 12000,
+                            "discountPercent": 91,
+                            "totalPrice": 1098.9,
+                            "roomOffer": {
+                                "breakfast": 0,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            }
+                        },
+                        {
+                            "roomCode": "MA05110034",
+                            "roomOfferName": "Deluxe with bed and breakfast",
+                            "roomType": "Double",
+                            "nightPrice": 1428.9,
+                            "noOfRoomsAndName": "1 x DELUXE",
+                            "nightPriceBeforeDiscount": 12000,
+                            "discountPercent": 88,
+                            "totalPrice": 1428.9,
+                            "roomOffer": {
+                                "breakfast": 1,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            },
+                            "hotelBenefits": [{
+                                "topic": "RBH Privilege",
+                                "shortDescription": "Special privileges for customers ",
+                                "longDescription": "Special privileges for customers to receive Vouchers worth 5000 can be used instead of cash in the hotel.",
+                                "categoryId": "5",
+                                "categoryName": "RBH Privilege"
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "roomName": "Premier double",
+                    "roomInfo": {
+                        "roomFacilityInfo": "",
+                        "description": "",
+                        "promoteFlag": "N",
+                        "dimension": "",
+                        "totalRoom": "",
+                        "doubleBedFlag": "N",
+                        "twinBedFlag": "N",
+                        "queenBedflag": "N",
+                        "smorkingFlag": "N",
+                        "nonSmorkingFlag": "N",
+                        "noWindowFlag": "N",
+                        "balconyFlag": "N",
+                        "wifiFlag": "N",
+                        "maxPaxNbr": "0",
+                        "roomFacilities": []
+                    },
+                    "facility": [
+                        {
+                            "key": "WIFI",
+                            "value": "0"
+                        },
+                        {
+                            "key": "SWIM",
+                            "value": "1"
+                        },
+                        {
+                            "key": "FITNESS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "RESTAURANTS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "PARKING",
+                            "value": "1"
+                        },
+                        {
+                            "key": "LAUNDRY",
+                            "value": "1"
+                        },
+                        {
+                            "key": "ROOM_SRV",
+                            "value": "1"
+                        },
+                        {
+                            "key": "SPA",
+                            "value": "1"
+                        }
+                    ],
+                    "details": [
+                        {
+                            "roomCode": "MA05110038",
+                            "roomOfferName": "Premier with room only",
+                            "roomType": "Double",
+                            "nightPrice": 1538.9,
+                            "noOfRoomsAndName": "1 x PREMIER",
+                            "nightPriceBeforeDiscount": null,
+                            "discountPercent": null,
+                            "totalPrice": 1538.9,
+                            "roomOffer": {
+                                "breakfast": 0,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            }
+                        },
+                        {
+                            "roomCode": "MA05110038",
+                            "roomOfferName": "Premier with bed and breakfast",
+                            "roomType": "Double",
+                            "nightPrice": 1868.9,
+                            "noOfRoomsAndName": "1 x PREMIER",
+                            "nightPriceBeforeDiscount": null,
+                            "discountPercent": null,
+                            "totalPrice": 1868.9,
+                            "roomOffer": {
+                                "breakfast": 1,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            },
+                            "hotelBenefits": [{
+                                "topic": "RBH Privilege",
+                                "shortDescription": "Special privileges for customers ",
+                                "longDescription": "Special privileges for customers to receive Vouchers worth 5000 can be used instead of cash in the hotel.",
+                                "categoryId": "5",
+                                "categoryName": "RBH Privilege"
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "roomName": "Family room double",
+                    "roomInfo": null,
+                    "facility": [
+                        {
+                            "key": "WIFI",
+                            "value": "0"
+                        },
+                        {
+                            "key": "SWIM",
+                            "value": "1"
+                        },
+                        {
+                            "key": "FITNESS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "RESTAURANTS",
+                            "value": "1"
+                        },
+                        {
+                            "key": "PARKING",
+                            "value": "1"
+                        },
+                        {
+                            "key": "LAUNDRY",
+                            "value": "1"
+                        },
+                        {
+                            "key": "ROOM_SRV",
+                            "value": "1"
+                        },
+                        {
+                            "key": "SPA",
+                            "value": "1"
+                        }
+                    ],
+                    "details": [
+                        {
+                            "roomCode": "MA07091238",
+                            "roomOfferName": "Family room with room only",
+                            "roomType": "Double",
+                            "nightPrice": 3078.9,
+                            "noOfRoomsAndName": "1 x FAMILY ROOM",
+                            "nightPriceBeforeDiscount": null,
+                            "discountPercent": null,
+                            "totalPrice": 3078.9,
+                            "roomOffer": {
+                                "breakfast": 0,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            },
+                            "hotelBenefits": [{
+                                "topic": "RBH Privilege",
+                                "shortDescription": "Special privileges for customers ",
+                                "longDescription": "Special privileges for customers to receive Vouchers worth 5000 can be used instead of cash in the hotel.",
+                                "categoryId": "5",
+                                "categoryName": "RBH Privilege"
+                            }]
+                        },
+                        {
+                            "roomCode": "MA07091238",
+                            "roomOfferName": "Family room with bed and breakfast",
+                            "roomType": "Double",
+                            "nightPrice": 3408.9,
+                            "noOfRoomsAndName": "1 x FAMILY ROOM",
+                            "nightPriceBeforeDiscount": null,
+                            "discountPercent": null,
+                            "totalPrice": 3408.9,
+                            "roomOffer": {
+                                "breakfast": 1,
+                                "payNow": "Instant payment",
+                                "cancellationPolicy": "Free cancellation by hotel's cancellation policy applies"
+                            },
+                            "hotelBenefits": [{
+                                "topic": "RBH Privilege",
+                                "shortDescription": "Special privileges for customers ",
+                                "longDescription": "Special privileges for customers to receive Vouchers worth 5000 can be used instead of cash in the hotel.",
+                                "categoryId": "5",
+                                "categoryName": "RBH Privilege"
+                            }]
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        "status": {
+            "code": "1000",
+            "header": "Success"
+        },
+        "metadata": {
+            "source": "test"
+        }
+    }
+}

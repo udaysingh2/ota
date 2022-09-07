@@ -1,0 +1,6 @@
+app_identifier("match InHouse th.co.robinhood.ota.dev") # The bundle identifier of your app
+team_id("WF47643S5X") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -1,0 +1,73 @@
+{
+	"getFavorites": {
+		"data": {
+			"favorites": [{
+					"id": "MA2110000413",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "JJ Green Market Tour",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": "NONE-Bangkok",
+					"category": "EDUCATIONAL",
+					"serviceName": "TOUR",
+					"promotionList" : []
+				},
+				{
+					"id": "MA2110000414",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "Chiang Mai Animal Section",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": "NONE-Bangkok",
+					"category": "ADVENTURE",
+					"serviceName": "TICKET"
+				},
+				{
+					"id": "MA2110000414",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "Chiang Mai Animal Section",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": "NONE-Bangkok",
+					"category": "ADVENTURE",
+					"serviceName": "TICcsKET"
+				},
+        {
+					"id": "MA2110000414",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "Chiang Mai Animal Section",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": "NONE-Bangkok",
+					"category": "ADVENTURE",
+					"serviceName": null
+				},
+				{
+					"id": "MA2110000414",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "Chiang Mai Animal Section",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": "NONE-Bangkok",
+					"category": null,
+					"serviceName": "TICcsKET"
+				},
+				{
+					"id": "MA2110000414",
+					"cityId": "MA05110041",
+					"countryId": "MA05110001",
+					"name": "Chiang Mai Animal Section",
+					"image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/jj-green-market-tour-ma2110000413-general1.jpg",
+					"location": null,
+					"category": "SPORTS",
+					"serviceName": "TICKET"
+				}
+			]
+		},
+		"status": {
+			"code": "1000",
+			"header": "Success",
+			"description": null
+		}
+	}
+}

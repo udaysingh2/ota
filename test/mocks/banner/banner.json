@@ -1,0 +1,132 @@
+{
+  "getBanners": {
+    "data": {
+      "banner": [{
+        "bannerId": "1",
+        "type": "GLOBAL",
+        "startDate": "2021-10-29T08:44:39",
+        "endDate": "2023-01-30T08:44:39",
+        "priority": "1",
+        "imageFilename": "https://robinhood/01_EN.jpg",
+        "deeplinkUrl": "http://img01-deeplink",
+        "deeplinkType": "EXTERNAL",
+        "function": "OTA_LANDING",
+        "orderSection": "1"
+      },
+        {
+          "bannerId": "9",
+          "type": "GLOBAL",
+          "startDate": "2020-11-09T08:44:39",
+          "endDate": "2022-02-03T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "199",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T20:44:39",
+          "endDate": "2022-02-15T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "198",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T20:44:39",
+          "endDate": "2022-02-15T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "201",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T09:44:39",
+          "endDate": "2022-02-15T23:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "200",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T09:44:39",
+          "endDate": "2022-02-15T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "111",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T08:44:39",
+          "endDate": "2022-02-15T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "11",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T08:44:39",
+          "endDate": "2022-02-15T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "10",
+          "type": "GLOBAL",
+          "startDate": "2020-11-07T08:44:39",
+          "endDate": "2022-02-13T08:44:39",
+          "priority": "1",
+          "imageFilename": "https://robinhood/01_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        },
+        {
+          "bannerId": "13",
+          "type": "GLOBAL",
+          "startDate": "2021-05-24T08:44:39",
+          "endDate": "2022-12-24T08:44:39",
+          "priority": "3",
+          "imageFilename": "https://www.linkpicture.com/q/banner_EN.jpg",
+          "deeplinkUrl": "http://img01-deeplink",
+          "deeplinkType": "EXTERNAL",
+          "function": "OTA_LANDING",
+          "orderSection": "1"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "description": null,
+      "header": "Success"
+    }
+  }
+}

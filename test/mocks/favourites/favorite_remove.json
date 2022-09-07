@@ -1,0 +1,9 @@
+{
+        "removeFavorite": {
+            "status": {
+                "code": "1000",
+                "header": "Success",
+                "description": null
+            }
+        }
+    }

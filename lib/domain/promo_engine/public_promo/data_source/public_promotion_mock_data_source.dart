@@ -1,0 +1,357 @@
+import 'package:ota/domain/promo_engine/public_promo/data_source/public_promotiom_remote_data_source.dart';
+import 'package:ota/domain/promo_engine/public_promo/models/promo_engine_argument_domain.dart';
+import 'package:ota/domain/promo_engine/public_promo/models/public_promotion_model_domain.dart';
+
+class PublicPromotionMockDataSourceImpl
+    implements PublicPromotionRemoteDataSource {
+  PublicPromotionMockDataSourceImpl();
+  @override
+  Future<PublicPromotionModelDomain> getPublicPromotionData(
+      PublicPromotionArgumentDomain argument) async {
+    await Future.delayed(const Duration(seconds: 1));
+    return PublicPromotionModelDomain.fromJson(_responseMock);
+  }
+}
+
+var _responseMock = '''
+ {
+    "getAvailablePublicPromotions": {
+      "status": {
+        "code": "1000",
+        "header": "",
+        "description": "Success"
+      },
+      "data": {
+        "promotionList": [
+          {
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          },{
+            "promotionId": 1,
+            "promotionName": "RBH Special",
+            "shortDescription": "ส่วนลดมูลค่า 50 บาท",
+            "discount": 50,
+            "maximumDiscount": 100,
+            "discountType": "PERCENT",
+            "discountFor": "ORDER",
+            "promotionLink": "scbeasy://payments/creditcard/review/id/4567",
+            "promotionType": "PUBLIC",
+            "iconUrl": "scbeasy://payments/creditcard/review/id/4567",
+            "voucherCode": "RBH50",
+            "promotionCode": "RBH50",
+            "startDate": "2020-07-24T08:44:39.000Z",
+            "endDate": "2020-07-24T08:44:39.000Z",
+            "applicationKey": "HOTEL"
+          }
+        ],
+        "pagination": {
+          "currentPage": 0,
+          "pageSize": 20,
+          "hasNextPage": true,
+          "hasPreviousPage": false
+        }
+      }
+    }
+  }
+''';

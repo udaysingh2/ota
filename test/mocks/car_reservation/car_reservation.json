@@ -1,0 +1,65 @@
+{
+  "getCarInitiateBookingResponse": {
+    "data": {
+      "bookingUrn": "C220322-AA-0001",
+      "image": "https://trbhmanage.travflex.com/ImageData/Car/vios-2-1.jpg",
+      "car": {
+        "id": 2,
+        "name": "Vios",
+        "brand": "Toyota",
+        "crafttype": "Medium cars",
+        "seatNbr": 4,
+        "doorNbr": 4,
+        "bagLargeNbr": 1,
+        "bagSmallNbr": 0,
+        "gear": "A",
+        "year": 0
+      },
+      "supplier": {
+        "id": "MA2111000062",
+        "name": "Krungthai Car Rent & Lease PLC",
+        "logo": {
+          "url": "https://trbhmanage.travflex.com/ImageData/Supplier/krungthai_car_rent___lease_plc-logo.gif",
+          "title": "Krungthai Car Rent & Lease PLC",
+          "alt": "Krungthai Car Rent & Lease PLC"
+        }
+      },
+      "fromDate": "2021-11-10",
+      "pickupCounter": {
+        "id": 0,
+        "locationName": "Don Muang",
+        "opentime": "05:00"
+      },
+      "ratePerDays": {
+        "ratePerDay": 899,
+        "returnCounter": {
+          "locationName": "Don Muang",
+          "opentime": "05:00"
+        },
+        "returnExtraCharge": 0,
+        "totalDaysExtraCharge": 3596,
+        "total": 3596,
+        "totalDays": 899,
+        "rateKey": "eNqLVjI0VNKJNjKN1THUMTLVMTPQMdAxMosFAEAQBRw=",
+        "refCode": "CL213"
+      },
+      "toDate": "2022-12-31",
+      "rentalDays": 2,
+      "cancellationPolicy": [
+        {
+          "cancelDays": 30,
+          "message": "Free of Charge for Cancellations 30 days days before the rental start date, Otherwise a full charge of the entire booking value will be applied, In case of No Show is non-refundable"
+        },
+        {
+          "cancelDays": 45,
+          "message": "Free of Charge for Cancellations 45 days days before the rental start date, Otherwise 50% of the entire booking value will be applied, In case of No Show is non-refundable"
+        }
+      ],
+      "extraCharges": null
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success"
+    }
+  }
+}

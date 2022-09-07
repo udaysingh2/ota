@@ -1,0 +1,104 @@
+{
+    "data":{
+        "getPlaylists":{
+           "staticPlaylist":[
+              {
+                 "name":"hotels",
+                 "source":"static",
+                 "serviceName":"hotels",
+                 "list":[
+                    {
+                       "hotelId":"MA0511000344",
+                       "hotelName":"Shangri La Bangkok",
+                       "rating":4,
+                       "image":"https://manage.robinhood.in.th/ImageData/Hotel/Amora_Neoluxe_Bangkok-general1.jpg",
+                       "review":{
+                          "score":4,
+                          "numReview":10,
+                          "description":"superb"
+                       },
+                       "address":{
+                          "locationId":"MA0511000343",
+                          "locationName":"Wat Suan Phu New",
+                          "address1":"89 Soi Wat Suan Phu New Road, Bangrak, 10500, Bangkok, Thailand",
+                          "cityId":"MA05110041",
+                          "cityName":"Bangkok",
+                          "countryId":"MA05110001",
+                          "countryName":"Thailand"
+                       }
+                    },
+                    {
+                       "hotelId":"MA0511000341",
+                       "hotelName":"Shangri La Bangkok",
+                       "rating":4,
+                       "image":"https://manage.robinhood.in.th/ImageData/Hotel/Amora_Neoluxe_Bangkok-general1.jpg",
+                       "review":{
+                          "score":4,
+                          "numReview":10,
+                          "description":"superb"
+                       },
+                       "address":{
+                          "locationId":"MA05110003",
+                          "locationName":"Wat Suan Phu New",
+                          "address1":"89 Soi Wat Suan Phu New Road, Bangrak, 10500, Bangkok, Thailand",
+                          "cityId":"MA05110041",
+                          "cityName":"Bangkok",
+                          "countryId":"MA05110001",
+                          "countryName":"Thailand"
+                       }
+                    }
+                 ]
+              }
+           ],
+           "dynamicPlaylist":[
+              {
+                 "name":"hotels",
+                 "source":"static",
+                 "serviceName":"hotels",
+                 "list":[
+                    {
+                       "hotelId":"MA0511000344",
+                       "hotelName":"Shangri La Bangkok",
+                       "rating":4,
+                       "image":"https://manage.robinhood.in.th/ImageData/Hotel/Amora_Neoluxe_Bangkok-general1.jpg",
+                       "review":{
+                          "score":4,
+                          "numReview":10,
+                          "description":"superb"
+                       },
+                       "address":{
+                          "locationId":"MA0511000343",
+                          "locationName":"Wat Suan Phu New",
+                          "address1":"89 Soi Wat Suan Phu New Road, Bangrak, 10500, Bangkok, Thailand",
+                          "cityId":"MA05110041",
+                          "cityName":"Bangkok",
+                          "countryId":"MA05110001",
+                          "countryName":"Thailand"
+                       }
+                    },
+                    {
+                       "hotelId":"MA0511000341",
+                       "hotelName":"Shangri La Bangkok",
+                       "rating":4,
+                       "image":"https://manage.robinhood.in.th/ImageData/Hotel/Amora_Neoluxe_Bangkok-general1.jpg",
+                       "review":{
+                          "score":4,
+                          "numReview":10,
+                          "description":"superb"
+                       },
+                       "address":{
+                          "locationId":"MA05110003",
+                          "locationName":"Wat Suan Phu New",
+                          "address1":"89 Soi Wat Suan Phu New Road, Bangrak, 10500, Bangkok, Thailand",
+                          "cityId":"MA05110041",
+                          "cityName":"Bangkok",
+                          "countryId":"MA05110001",
+                          "countryName":"Thailand"
+                       }
+                    }
+                 ]
+              }
+           ]
+        }
+     }
+}

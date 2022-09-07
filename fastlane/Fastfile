@@ -1,0 +1,18 @@
+import 'Private'
+import 'Flutter'
+
+lane :bump_version_to_git do |options|
+  version = sh("grep 'version:' ../pubspec.yaml | sed 's/version: //'")
+  version_arr = version.split("+")
+  build_version = version_arr.first()
+  build_number =  version_arr.last()
+  branch_name = options[:branch_name]
+  git_commit(path: "./pubspec.yaml", message: "Bump up version: #{build_version} build number #{build_number}")
+  push_to_git_remote(
+      remote: "origin",           # optional, default: "origin"
+      local_branch: "HEAD",       # optional, aliased by "branch", default: "master"
+      remote_branch: branch_name, # optional, default is set to local_branch
+  )
+  sh('git checkout -- .')
+  puts "Bump build number to remote Successful !!"
+end

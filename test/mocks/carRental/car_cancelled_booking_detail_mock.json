@@ -1,0 +1,149 @@
+{
+    "otaBookingDetailsV2": {
+        "status": {
+            "code": "1000",
+            "header": "Success",
+            "description": ""
+        },
+        "data": {
+            "displayStatus": "Ongoing booking",
+            "bookingStatus": "CANCELLED",
+            "bookingUrn": "TR220302-AA-0005",
+            "serviceNumber": "",
+            "activityStatus": "USER_CANCELLED",
+            "bookingId": "B2CMMA220210007",
+            "orderId": "220300272",
+            "bookingType": "CARRENTAL",
+            "promotionList": [
+                {
+                    "productType": "ACTIVITY",
+                    "promotionCode": "FREEDELIVERY",
+                    "title": "Free Food Delivery",
+                    "description": "Book Now! Free Robinhood Delivery. Unlimited deliveries up to 7 days! Reserve from Now - 30 September 2022",
+                    "web": "https://cms.robinhood.in.th/archives/2869"
+                }
+            ],
+            "carBookingDetails": {
+                "car": {
+                    "carId": "2",
+                    "name": "Vios",
+                    "brand": "Toyota",
+                    "images": {
+                        "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/yaris-4-1.jpg",
+                        "full": "https://trbhmanage.travflex.com/ImageData/Car/yaris-4-1.jpg"
+                    },
+                    "crafttype": "Medium cars",
+                    "seatNbr": "4",
+                    "doorNbr": "4",
+                    "bagLargeNbr": "1",
+                    "bagSmallNbr": "2",
+                    "engine": "1500",
+                    "gear": "A",
+                    "fuelType": "Gasoline",
+                    "facilities": [
+                        "Apple CarPlay",
+                        "Backup camera",
+                        "Bluetooth",
+                        "Leather seats",
+                        "Navigation system",
+                        "Third-row seating"
+                    ],
+                    "year": "2021",
+                    "generalInfo": ""
+                },
+                "pickupCounter": {
+                    "counterId": "6",
+                    "name": "Don Muang Airport (DMK)",
+                    "address": "<span>222 Vibhavadi Rangsit Rd, Sanambin, Don Mueang, Bangkok 10210<br>Tel:&#160;</span><a>02 535 1192</a>",
+                    "locationId": "",
+                    "locationName": "Don Muang",
+                    "latitude": "13.91370000",
+                    "longitude": "100.59920000",
+                    "opentime": "05:00",
+                    "closetime": "18:00",
+                    "description": "Don Muang Airport, (DMK)&#160; 1st Floor, Exit No.3"
+                },
+                "returnCounter": {
+                    "counterId": "6",
+                    "name": "Don Muang Airport (DMK)",
+                    "address": "<span>222 Vibhavadi Rangsit Rd, Sanambin, Don Mueang, Bangkok 10210<br>Tel:&#160;</span><a>02 535 1192</a>",
+                    "locationId": "",
+                    "locationName": "Don Muang",
+                    "latitude": "13.91370000",
+                    "longitude": "100.59920000",
+                    "opentime": "05:00",
+                    "closetime": "18:00",
+                    "description": "Don Muang Airport, (DMK)&#160; 1st Floor, Exit No.3"
+                },
+                "payment": [
+                    {
+                      "amount": "104.00",
+                      "cardNickName": "test",
+                      "cardNo": "***5454",
+                      "cardType": "UNIONPAY",
+                      "type": "CARD",
+                      "name": "Credit Card"
+                    },
+                    {
+                      "amount": "16304.00",
+                      "cardNickName": null,
+                      "cardNo": null,
+                      "cardType": null,
+                      "type": "VA",
+                      "name": "Wallet"
+                    }
+                  ],
+                "supplier": {
+                    "id": "MA2111000064",
+                    "name": "Chic Car Rent",
+                    "logo": {
+                        "url": "https://trbhmanage.travflex.com/ImageData/Supplier/chic_car_rent-logo.jpg"
+                    }
+                },
+                "driverName": "XYZ",
+                "pickupDateTime": "2022-05-14T11:00:00",
+                "returnDateTime": "2022-06-16T11:00:00",
+                "rentalDays": 1,
+                "flightNumber": "1234567",
+                "allowLateReturn": 0,
+                "generalInfo": "",
+                "conditionInfo": "",
+                "extraCharges": [
+                    {
+                        "serviceId": 71,
+                        "chargeType": 1,
+                        "description": "",
+                        "isCompulsory": true,
+                        "name": "Insurance",
+                        "price": 1000.0,
+                        "quantity": 1
+                    }
+                ],
+                "cancellationPolicy": [
+                    {
+                        "cancelDays": 3,
+                        "message": "Free of Charge for Cancellations 3 days days before the rental start date, Otherwise a full charge of the entire booking value will be applied, In case of No Show is non-refundable"
+                    },
+                    {
+                        "cancelDays": 7,
+                        "message": "Free of Charge for Cancellations 7 days days before the rental start date, Otherwise 50% of the entire booking value will be applied, In case of No Show is non-refundable"
+                    }
+                ],
+                "paymentStatus": "FAILED",
+                "netPrice": 1098.0,
+                "totalPrice": 2098.0,
+                "totalPayablePrice": 2098.0,
+                "extrasOnlinePrice": 1000.0,
+                "extrasCounterPrice": 10.0,
+                "processingCharge": 10.0,
+                "totalDiscount": 0.0,
+                "bookingDate": "2022-04-18",
+                "confirmationDate": "2022-04-19",
+                "cancellationDate": "2022-04-19",
+                "cancellationCharge": 84.0,
+                "cancellationReason": " DUE TO COVID-19",
+                "totalRefundAmount": 2004.0
+            }
+        }
+    }
+}

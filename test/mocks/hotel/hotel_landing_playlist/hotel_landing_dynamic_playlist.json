@@ -1,0 +1,50 @@
+{
+    "getPlaylists": {
+        "dynamicPlaylist": {
+          "source": "Dynamic",
+          "serviceName": "Hotels",
+          "playlist": [
+            {
+              "playlistId": "222",
+              "playlistName": "some value",
+              "cardList": [
+                {
+                  "id": "MA0511000335",
+                  "cityId": "MA05110041",
+                  "countryId": "MA05110001",
+                  "countryName": "null",
+                  "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+                  "name": "null",
+                  "locationName": "null",
+                  "locationId": "MA05110010",
+                  "cityName": "null",
+                  "styleName": "null",
+                  "startPrice": "null",
+                  "productType": "null",
+                  "address": "null",
+                  "address1": "null",
+                  "rating": 4,
+                  "review": {
+                      "score": 4,
+                      "numReview": 10,
+                      "description": "superb"
+                    },
+                  "promotionText_line1": "null",
+                  "promotionText_line2": "null",
+                  "capsulePromotion": [
+                      {
+                        "name": "cap1",
+                        "code": "007"
+                      }
+                    ],
+                  "infopromotion": []
+                }
+                
+              ]
+            }
+          ]
+        }
+      }
+    
+  
+}

@@ -1,0 +1,12 @@
+const String kErrorCode1899 = '1899';
+const String kErrorCode1999 = '1999';
+const String kSuccessCode = '1000';
+const String kErrorCode3023 = '3023';
+const String kErrorCode3024 = '3024';
+const String kErrorCode3025 = '3025';
+const String kErrorCode3028 = '3028';
+const String kErrorCode3033 = '3033';
+const String kErrorCode3034 = '3034';
+const String kErrorCode3054 = '3054';
+const String kErrorCode3068 = '3068';
+const String kErrorCode3000 = '3000';

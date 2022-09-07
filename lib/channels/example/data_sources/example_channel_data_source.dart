@@ -1,0 +1,44 @@
+import 'package:ota/channels/example/models/example_argument_model_channel.dart';
+import 'package:ota/channels/example/models/example_response_model_channel.dart';
+import 'package:ota/common/network/disposer.dart';
+import 'package:ota/core_components/ota_channel/ota_channel.dart';
+
+abstract class ExampleChannelDataSource extends Disposer {
+  Future<ExampleResponseModelChannel> invokeExampleMethod(
+      {required String methodName,
+      required ExampleArgumentModelChannel arguments});
+}
+
+class ExampleChannelDataSourceImpl
+    implements ExampleChannelDataSource, Disposer {
+  OtaChannel? otaMethodChannel;
+  static OtaChannel? _otaMethodChannel;
+
+  static setMock(OtaChannel? otaMockMethodChannel) {
+    _otaMethodChannel = otaMockMethodChannel;
+  }
+
+  ExampleChannelDataSourceImpl({OtaChannel? otaMethodChannel}) {
+    if (_otaMethodChannel != null) {
+      this.otaMethodChannel = _otaMethodChannel;
+    } else if (otaMethodChannel == null) {
+      this.otaMethodChannel = OtaChannelImpl();
+    } else {
+      this.otaMethodChannel = otaMethodChannel;
+    }
+  }
+
+  @override
+  Future<ExampleResponseModelChannel> invokeExampleMethod(
+      {required String methodName,
+      required ExampleArgumentModelChannel arguments}) async {
+    return ExampleResponseModelChannel.fromMap(await otaMethodChannel!
+        .invokeNativeMethod(
+            methodName: methodName, arguments: arguments.toMap()));
+  }
+
+  @override
+  void dispose() {
+    otaMethodChannel?.dispose();
+  }
+}

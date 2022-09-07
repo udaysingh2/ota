@@ -1,0 +1,152 @@
+{
+	"notificationInquiry": {
+		"data": {
+			"messageList": [{
+					"messageId": 787798000,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "ANNOUNCEMENT",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798002,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798003,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "ANNOUNCEMENT",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798004,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798005,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798007,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798008,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798009,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "PROMOTION",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798010,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "ANNOUNCEMENT",
+					"promotionType": "HOTEL",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				},
+				{
+					"messageId": 787798011,
+					"bookingUrn": null,
+					"confirmationNo": null,
+					"bookingStatus": "CONFIRMED",
+					"subject": "Promotion to your satisfaction",
+					"body": "Pay ฿20 get Robinhood discount Total ฿100 baht",
+					"category": "ANNOUNCEMENT",
+					"promotionType": "FOOD",
+					"readFlag": false,
+					"createDate": null,
+					"deeplink": "scbeasy://payments/creditcard/review/id/1234",
+					"priority": "High"
+				}
+			]
+		},
+		"status": {
+			"code": "1000",
+			"header": "Success",
+			"description": null
+		}
+	}
+}

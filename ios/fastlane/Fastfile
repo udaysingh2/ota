@@ -1,0 +1,33 @@
+import 'Private'
+
+  lane :build do |options|
+    scheme = options[:env]
+    export_method = "enterprise"
+    export_options = map_export_options(options)
+    team_id = "WF47643S5X"
+
+    gym(scheme: scheme,
+      clean: true,
+      export_method: export_method,
+      output_name: options[:output_name],
+      xcargs: "DEVELOPMENT_TEAM=#{team_id}",
+      export_xcargs: "-allowProvisioningUpdates",
+      export_options: export_options
+    )
+  end
+
+lane :distribute_firebase do |options|
+    path_to_ipa = Dir['../build/*.ipa'].sort_by { |x| File.mtime(x) }.last
+    path_to_ipa = File.expand_path(path_to_ipa)
+    puts "Path to IPA"
+    puts path_to_ipa
+    firebase_app_distribution(
+          app: "1:465744335200:ios:359f5a5d86c3f2b7aa4e05",
+          release_notes: "Release notes",
+          ipa_path: path_to_ipa,
+          firebase_cli_token: options[:firebase_cli_token],
+    )
+end
+
+
+

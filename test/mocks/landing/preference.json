@@ -1,0 +1,18 @@
+{
+    "questionId": "B",
+    "description": "Who do you like to travel with?",
+    "multiChoice": true,
+    "backgroundImageUrl": "",
+    "options": [
+        {
+            "optionCode": "B1",
+            "optionDesc": "Solo traveler",
+            "imageUrl": "https://www.linkpicture.com/q/Preference_SoloTravel.png"
+        },
+        {
+            "optionCode": "B2",
+            "optionDesc": "My friends",
+            "imageUrl": "https://www.linkpicture.com/q/Preference_friends.png"
+        }
+    ]
+}

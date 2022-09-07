@@ -1,0 +1,80 @@
+{
+  "getServiceCard": {
+    "data": {
+      "defaultCustomText": "Where are you going?",
+      "backgroundUrl": "https://static-dev.alp-robinhood.com/ota/background/image/OTA.jpg",
+      "businessCards": [{
+        "title": "more than 1,000",
+        "serviceText": "Hotels",
+        "description": "100,000+ Hotels",
+        "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/1.jpg",
+        "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/1.jpg",
+        "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/1.jpg",
+        "sortSeq": "1",
+        "service": "HOTEL",
+        "deeplinkUrl": "https://robinhood/"
+      },
+        {
+          "title": "more than 1,000",
+          "serviceText": "Flights",
+          "description": "50,000+ Flights",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/2.jpg",
+          "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/2.jpg",
+          "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/2.jpg",
+          "sortSeq": "2",
+          "service": "FLIGHT",
+          "deeplinkUrl": "https://robinhood/"
+        },
+        {
+          "title": "more than 1,000",
+          "serviceText": "Tours and Activites",
+          "description": "1,000+ Tours and Activites",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/3.jpg",
+          "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/3.jpg",
+          "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/3.jpg",
+          "sortSeq": "3",
+          "service": "TOUR",
+          "deeplinkUrl": "https://robinhood/"
+        },
+        {
+          "title": "more than 1,000",
+          "serviceText": "Car rentals",
+          "description": "20,000+ Car rentals",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/4.jpg",
+          "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/4.jpg",
+          "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/4.jpg",
+          "sortSeq": "4",
+          "service": "CARRENTAL",
+          "deeplinkUrl": "https://robinhood/"
+        },
+        {
+          "title": "more than 1,000",
+          "serviceText": "Insurances",
+          "description": "20,000+ Insurances",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/5.jpg",
+          "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/5.jpg",
+          "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/5.jpg",
+          "sortSeq": "5",
+          "service": "INSURANCE",
+          "deeplinkUrl": "https://robinhood/"
+        },
+        {
+          "title": "more than 1,000",
+          "serviceText": "Special Deals",
+          "description": "20,000+ Special Deals",
+          "imageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/image/6.jpg",
+          "largeImageUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/6.jpg",
+          "serviceBackgroundUrl": "https://static-dev.alp-robinhood.com/ota/serviceCard/largeImage/6.jpg",
+          "sortSeq": "6",
+          "service": "DEALS",
+          "deeplinkUrl": "https://robinhood/"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "Success",
+      "description": null
+    }
+  }
+}

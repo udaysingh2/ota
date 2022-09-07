@@ -1,0 +1,26 @@
+{
+    "data": {
+        "loadTranslation": {
+            "data": {
+                "en": [
+                    {
+                        "name": "priceOfThisEvent",
+                        "value": "12"
+                    },
+                    {
+                        "name": "excessiveWaitAmount",
+                        "value": "23"
+                    },
+                    {
+                        "name": "save",
+                        "value": "34"
+                    },
+                    {
+                        "name": "arrivalTime",
+                        "value": "56"
+                    }
+                ]
+            }
+        }
+    }
+}

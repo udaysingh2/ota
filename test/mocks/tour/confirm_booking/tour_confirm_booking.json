@@ -1,0 +1,67 @@
+{
+  "getTourBookingConfirmation": {
+    "status": {
+      "code": "1000",
+      "header": "Success"
+    },
+    "data": {
+      "bookingUrn": "TR220117-AA-0006",
+      "tourId": "MA2111000115",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "bookingDate": "2022-01-18",
+      "name": "Bangkok Hop on Hop off(Wangthong Garden)",
+      "image": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/place-profile-place-name-bangkok-hop-on-hop-off-ma2111000115-general1.jpg",
+      "location": "Bangkapi,Bangkok",
+      "category": "City Tour",
+      "noOfDays": "2",
+      "startTimeAMPM": "3:00 PM",
+      "packageDetail": {
+        "name": "Bangkok Hop on Hop off(Wangthong Garden)",
+        "inclusions": {
+          "highlights": [{
+            "key": "tourTime",
+            "value": "Night tour starts at 15:00 PM"
+          },
+            {
+              "key": "tourType",
+              "value": "Group tour"
+            },
+            {
+              "key": "guideLanguage",
+              "value": "English-speaking tour guide"
+            },
+            {
+              "key": "isNonRefund",
+              "value": "can't cancel"
+            }
+          ]
+        },
+        "cancellationPolicy": "can't cancel",
+        "durationText": "5 hours ",
+        "duration": "5"
+      },
+      "totalAmount": 100.0,
+      "totalFees": 0.0,
+      "totalTaxes": 0.0,
+      "totalDiscount": 0.0,
+      "participantInfo": [{
+        "paxId": "string",
+        "name": "string",
+        "surname": "string",
+        "weight": 0.0,
+        "dateOfBirth": "string",
+        "passportCountry": "string",
+        "passportNumber": "string",
+        "passportCountryIssue": "string",
+        "expiryDate": "string"
+      }],
+      "customerInfo": {
+        "email": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string"
+      }
+    }
+  }
+}

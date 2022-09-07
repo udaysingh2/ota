@@ -1,0 +1,85 @@
+{
+    "getOtaSearchResult": {
+        "status": {
+            "code": "1000",
+            "description": "Success",
+            "header": ""
+        },
+        "data": {
+            "hotel": {
+                "hotelList": [{
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001981",
+                    "hotelName": "Capital J at Khao Yai",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 4,
+                    "address":"locationName, CityName",
+                    "totalPrice": 334.5,
+                    "pricePerNight": 566.7,
+                    "ratingTitle" : "Superub",
+                    "score":"9.5",
+                    "reviewText" : "8.5"
+                },
+                {
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001982",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 2,
+                    "address":"locationName1, CityName1",
+                    "totalPrice": 234.5,
+                    "pricePerNight": 166.7
+                },
+                    {
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001983",
+                    "hotelName": "Capital J",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 3,
+                    "address":"locationName2, CityName2",
+                    "totalPrice": 534.5,
+                    "pricePerNight": 506.0
+                },
+                {
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001983",
+                    "hotelName": "Capital J",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 3,
+                    "address":"locationName2, CityName2",
+                    "totalPrice": 534.5,
+                    "pricePerNight": 506.0
+                },
+                {
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001983",
+                    "hotelName": "Capital J",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 3,
+                    "address":"locationName2, CityName2",
+                    "totalPrice": 534.5,
+                    "pricePerNight": 506.0
+                },
+                {
+                    "sortSequence": 0,
+                    "hotelId": "MA1809001983",
+                    "hotelName": "Capital J",
+                    "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+                    "rating": 3,
+                    "address":"locationName3, cityName3",
+                    "totalPrice": 534.5,
+                    "pricePerNight": 516.0
+                }
+                ],
+                "filter": {
+                    "minPrice": 500,
+                    "maxPrice": 10000,
+                    "rating": [4, 5],
+                    "promotion": [],
+                    "reviewScore": [4, 5]
+                }
+            },
+            "flightList": [],
+            "carList": []
+        }
+    }
+}

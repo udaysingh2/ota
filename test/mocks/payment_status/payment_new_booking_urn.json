@@ -1,0 +1,12 @@
+{
+    "generateNewBookingUrn": {
+        "data": {
+            "newBookingUrn": "H20211013AA0067"
+        },
+        "status": {
+            "code": "1000",
+            "header": "Success",
+            "description": "Success"
+        }
+    }
+}

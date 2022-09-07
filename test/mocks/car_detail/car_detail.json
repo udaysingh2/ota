@@ -1,0 +1,109 @@
+{
+      "data": {
+        "carInfo": {
+          "brand": "Honda",
+          "crafttype": "Medium cars",
+          "images": {
+            "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/city-5-1.jpg",
+            "full": "https://trbhmanage.travflex.com/ImageData/Car/city-5-1.jpg"
+          },
+          "name": "City"
+        },
+        "carDetail": {
+          "id": "29",
+          "supplier": {
+            "id": "MA2111000039",
+            "name": "Fast Speed Thailand",
+            "logo": {
+              "url": "https://trbhmanage.travflex.com/ImageData/Supplier/fast_speed_thailand-logo.jpg"
+            }
+          },
+          "car": {
+            "id": "5",
+            "name": "City",
+            "brand": "Honda",
+            "crafttype": "Medium cars",
+            "seatNbr": "4",
+            "doorNbr": "4",
+            "bagLargeNbr": "1",
+            "bagSmallNbr": "2",
+            "engine": "1200",
+            "gear": "A",
+            "facilities": [
+              "Apple CarPlay",
+              "Bluetooth",
+              "Navigation system",
+              "Remote start"
+            ],
+            "images": {
+              "thumb": "https://trbhmanage.travflex.com/imagedata/Car/800/city-5-1.jpg",
+              "full": "https://trbhmanage.travflex.com/ImageData/Car/city-5-1.jpg"
+            },
+            "year": "2021",
+            "color": "White",
+            "fuelType": "Gasoline",
+            "description": "",
+            "generalInfo": "",
+            "conditionInfo": ""
+          },
+          "toDate": "2022-12-31",
+          "fromDate": "2021-11-10",
+          "pickupCounter": {
+            "name": "Fast Speed Don Muang",
+            "id": "1",
+            "address": "<p>222 Vibhavadi Rangsit Road, Don Mueang, Bangkok 10210. Tel: +6699 395-3529</p>",
+            "cityName": "Bangkok",
+            "locationId": "MA06030005",
+            "opentime": "06:00",
+            "locationName": "Don Muang Airport",
+            "latitude": "13.91370000",
+            "longitude": "100.59920000",
+            "closetime": "23:00",
+            "description": "<p>International Terminal Exit B door number 3</p>"
+          },
+          "currency": "THB",
+          "isIncludeDriver": "false",
+          "isPromotion": "false",
+          "generalInfo": null,
+          "description": "<div>The vehicle's deductible in case of loss of the car is ฿100,000.00 including tax. If the rental car company has included the deductible with basic insurance (CDW), the customer does not have to purchase the deductible. of the damages, the first part added</div>",
+          "conditionInfo": null,
+          "rateKey": "eNqLVjKyVNKJNjOK1THUMTLVMTfQMdAxsYgFAED0BSs=",
+          "refCode": "CL213",
+          "totalPrice": 760,
+          "pricePerDay": 380,
+          "returnExtraCharge": 0,
+          "termsAndCondition": null,
+          "returnCounter": {
+            "id": "1",
+            "name": "Fast Speed Don Muang",
+            "address": "<p>222 Vibhavadi Rangsit Road, Don Mueang, Bangkok 10210. Tel: +6699 395-3529</p>",
+            "locationId": "MA06030005",
+            "locationName": "Don Muang Airport",
+            "latitude": "13.91370000",
+            "longitude": "100.59920000",
+            "opentime": "06:00",
+            "closetime": "23:00",
+            "description": "<p>International Terminal Exit B door number 3</p>"
+          },
+          "promotionList": [
+            {
+              "productId": "5",
+              "productType": "CARRENTAL",
+              "promotionType": "CAPSULE",
+              "promotionCode": "146",
+              "line1": "Free Food Delivery ",
+              "line2": "",
+              "title": "Book now get free Robinhood food delivery fee",
+              "description": "Up to 20 times on every hotel reservation, learn more.",
+              "web": "https://cms.robinhood.in.th/archives/3263",
+              "iconImage": "String",
+              "bannerDescDisplay": true
+            }
+          ]
+        }
+      },
+      "status": {
+        "code": "1000",
+        "header": "Success"
+      }
+    }

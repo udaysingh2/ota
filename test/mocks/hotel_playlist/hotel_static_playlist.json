@@ -1,0 +1,290 @@
+{"getPlaylists": {
+  "staticPlaylist": {
+  "source": "Static",
+  "serviceName": "Hotels",
+  "playlist": [{
+    "playlistId": "",
+    "playlistName": "StaticPlayList",
+    "cardList": [{
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }, {
+      "id": "MA0511000335",
+      "cityId": "MA05110041",
+      "countryId": "MA05110001",
+      "countryName": "Thailand",
+      "imageUrl": "https://trbhmanage.travflex.com/ImageData/Hotel/tongtara_riverview-general1.jpg",
+      "name": "Tongtara Riverview",
+      "locationName": " Charoen Krung ",
+      "locationId": "MA05110010",
+      "cityName": "Bangkok",
+      "styleName": "",
+      "startPrice": 12,
+      "productType": "",
+      "address": "9/99 ถนนเจริญกรุง บางคอแหลม",
+      "address1": "",
+      "rating": 4,
+      "infoPromotion": "",
+      "review": {
+        "score": 1,
+        "numReview": 1,
+        "description": ""
+      },
+      "promotionText_line1": "8%",
+      "promotionText_line2": "off",
+      "capsulePromotion": [{
+        "name": "Free Food Delivery",
+        "code": ""
+      },
+        {
+          "name": "Free Food",
+          "code": ""
+        },
+        {
+          "name": "cap",
+          "code": ""
+        }
+      ],
+      "infopromotion": [{
+        "promotionText": ""
+      }]
+    }]
+  }]
+}}}

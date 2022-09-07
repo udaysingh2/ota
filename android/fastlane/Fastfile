@@ -1,0 +1,37 @@
+import 'Private'
+
+lane :distribute_firebase do |options|
+    firebase_app_distribution(
+          app: "1:465744335200:android:cc6c3bfcd2641adcaa4e05",
+          release_notes: "Release notes",
+          apk_path: get_file_path,
+          firebase_cli_token: options[:firebase_cli_token],
+    )
+end
+
+
+lane :build_for_distribution do |options|
+      environment = options[:env]
+      #next if environment.nil? # skip doing the rest of this lane
+
+      #case environment.downcase
+      #when 'automation' 
+        #gradle(task: "clean")
+        #gradle(task: "assemble")
+      #when 'alpha', 'dev', 'pt', 'sandbox', 'staging'
+        #gradle(task: "clean")
+        #gradle(task: "assemble#{environment.capitalize}Release")
+      #else 
+        #gradle(task: "clean")
+        #gradle(task: "bundle#{environment.capitalize}Release")
+      #end
+    
+      
+      gradle(task: "clean")
+      gradle(task: "assemble")
+      #path_to_apk = "../build/app/outputs/flutter-apk/app.apk"
+      path_to_apk = get_file_path(environment:environment)
+      puts "get path success"
+      puts path_to_apk
+      next if path_to_apk.nil? # skip doing the rest of this lane
+end

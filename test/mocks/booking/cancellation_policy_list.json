@@ -1,0 +1,10 @@
+{
+  "cancellationPolicy": [
+    {
+      "days": 1,
+      "cancellationDaysDescription": "String",
+      "cancellationChargeDescription": "String",
+      "cancellationStatus": "String"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+platform :android do
+  lane :get_latest_tag do
+      # sh "git describe --tags --abbrev=0 | sed -e 's/builds\\/tag\\/\\(.*\\)/\\1/'"
+      sh 'git describe --tags --abbrev=0'
+    end
+
+  # fastlane build_for_distribution [env:(ALPHA|DEV|PT|SANDBOX|STAGING) branch:{branch}]
+  lane :build_for_distribution do |options|
+
+      if options[:latest]
+          build_number = build_tag_from_current_build_version
+      else
+          # Need specific tag to be checked out
+          sh('git fetch --tags')
+          full_build_tag = get_latest_tag.chomp!
+          tag_name = options['tag'] || full_build_tag
+
+          UI.message("Tag: #{tag_name}")
+          unless git_tag_exists(tag: tag_name)
+            print 'Tag not found in repository'
+            next
+          end
+          sh("git checkout #{tag_name}")
+
+          build_number = build_tag_from_full_build_tag(tag: tag_name)
+      end
+
+      puts "build_number #{build_number}"
+      next if build_number.nil? # skip doing the rest of this lane
+      environment = options[:env]
+      next if environment.nil? # skip doing the rest of this lane
+
+      case environment.downcase
+      when 'alpha', 'dev', 'pt', 'sandbox', 'staging'
+        gradle(task: "clean")
+        gradle(task: "assemble#{environment.capitalize}Release")
+      else 
+        gradle(task: "clean")
+        gradle(task: "bundle#{environment.capitalize}Release")
+      end
+
+      path_to_apk = get_file_path(environment:environment)
+      puts "get path success"
+      puts path_to_apk
+      next if path_to_apk.nil? # skip doing the rest of this lane
+
+      new_filename = map_tagname_to_filename(environment:environment, tag_name:build_number)
+      dir, base = File.split(path_to_apk)
+      new_path_to_apk = "#{dir}/#{new_filename}"
+      puts "Renaming from #{path_to_apk} to #{new_path_to_apk}"
+      File.rename(path_to_apk, new_path_to_apk)
+  end
+
+  # fastlane distribute_apk
+  lane :distribute_apk do |options|
+      path_to_apk = get_file_path
+      apk_dir, apk_filename = File.split(path_to_apk)
+      environment, build_number = parse_filename_for_parameters(apk_filename: apk_filename)
+      next if path_to_apk.nil? # skip doing the rest of this lane
+      release_notes = options[:release_notes]
+      firebase_app_id = map_firebase_app_id(environment: environment)
+      distribute_firebase(
+            firebase_app_id: firebase_app_id,
+            apk_path: path_to_apk,
+            firebase_cli_token: options[:firebase_cli_token],
+            release_notes: release_notes,
+            firebase_tester_groups: options[:firebase_tester_groups],
+            firebase_tester_emails: options[:firebase_tester_emails]
+      )
+  end
+
+  desc "Distribute APK to Firebase App Distribution"
+  lane :distribute_firebase do |options|
+    firebase_app_distribution(
+          app: options[:firebase_app_id],
+          release_notes: options[:release_notes],
+          apk_path: options[:apk_path],
+          groups: options[:firebase_tester_groups],
+          firebase_cli_token: options[:firebase_cli_token],
+          testers: options[:firebase_tester_emails]
+    )
+  end
+end

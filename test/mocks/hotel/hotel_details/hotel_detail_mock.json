@@ -1,0 +1,258 @@
+{
+    "id": "MA1111000019",
+    "name": "Amora Neoluxe Bangkok",
+    "rating": "4",
+    "ratingCount": 9.5,
+    "ratingText": "Superb",
+    "location": "null , Thailand",
+    "address": ", 10110, Bangkok, Thailand",
+    "accomodationDetails": "",
+    "isFavourite": 0,
+    "images": {
+        "baseUri": "https://manage.robinhood.in.th/ImageData/Hotel/",
+        "cover": "amora_neoluxe_bangkok-general1.jpg",
+        "galleryCount": 8,
+        "gallery": [
+            "Amora_Neoluxe_Bangkok-room2.jpg",
+            "Amora_Neoluxe_Bangkok-facility2.jpg",
+            "Amora_Neoluxe_Bangkok-general1.jpg",
+            "Amora_Neoluxe_Bangkok-facility3.jpg",
+            "Amora_Neoluxe_Bangkok-room3.jpg",
+            "Amora_Neoluxe_Bangkok-facility1.jpg",
+            "Amora_Neoluxe_Bangkok-room1.jpg",
+            "Amora_Neoluxe_Bangkok-general2.jpg"
+        ]
+    },
+    "facilities": {
+        "list": [
+            {
+                "key": "AIR_COND",
+                "value": "Air-condition"
+            },
+            {
+                "key": "ROOM_SRV",
+                "value": "24 Hrs. Room Service"
+            },
+            {
+                "key": "TOILETERIES",
+                "value": "Toiletries"
+            },
+            {
+                "key": "CD_PLAYER",
+                "value": "CD Player"
+            },
+            {
+                "key": "W_INTERNET",
+                "value": "Wired Internet"
+            },
+            {
+                "key": "DESK",
+                "value": "Workdesk"
+            },
+            {
+                "key": "ALARM",
+                "value": "Alarm Clock"
+            },
+            {
+                "key": "SLIPPERS",
+                "value": "Slippers"
+            },
+            {
+                "key": "FRIDGE",
+                "value": "Fridge"
+            },
+            {
+                "key": "KETTLE",
+                "value": "Electric Kettle"
+            },
+            {
+                "key": "WIFI",
+                "value": "Wifi"
+            },
+            {
+                "key": "PHONE",
+                "value": "Telephone"
+            },
+            {
+                "key": "TUB",
+                "value": "Bathtub"
+            },
+            {
+                "key": "BABY_COT",
+                "value": "Babycot"
+            },
+            {
+                "key": "H_DRYER",
+                "value": "Hairdryer"
+            },
+            {
+                "key": "DEPOSIT_BOX",
+                "value": "Safe Deposit Box"
+            }
+        ],
+        "main": [
+            {
+                "key": "WIFI",
+                "value": "1"
+            },
+            {
+                "key": "SWIM",
+                "value": "0"
+            },
+            {
+                "key": "FITNESS",
+                "value": "0"
+            },
+            {
+                "key": "RESTAURANTS",
+                "value": "0"
+            },
+            {
+                "key": "PARKING",
+                "value": "0"
+            },
+            {
+                "key": "LAUNDRY",
+                "value": "0"
+            },
+            {
+                "key": "ROOM_SRV",
+                "value": "1"
+            },
+            {
+                "key": "SPA",
+                "value": "0"
+            }
+        ]
+    },
+    "rooms": [
+        {
+            "roomName": "Amora Neoluxe Bangkok",
+            "facility": [
+                {
+                    "key": "WIFI",
+                    "value": "1"
+                },
+                {
+                    "key": "SWIM",
+                    "value": "0"
+                },
+                {
+                    "key": "FITNESS",
+                    "value": "0"
+                },
+                {
+                    "key": "RESTAURANTS",
+                    "value": "0"
+                },
+                {
+                    "key": "PARKING",
+                    "value": "0"
+                },
+                {
+                    "key": "LAUNDRY",
+                    "value": "0"
+                },
+                {
+                    "key": "ROOM_SRV",
+                    "value": "0"
+                },
+                {
+                    "key": "SPA",
+                    "value": "0"
+                }
+            ],
+            "details": [
+                {
+                    "roomCode": "MA02033539",
+                    "roomOfferName": "Twin/Double room with Room Only",
+                    "roomType": "Double",
+                    "nightPrice": 23.1,
+                    "totalPrice": 716.1,
+                    "roomOffer": {
+                        "cancellationPolicy": "Hotel Policy : You have to cancel 7 day(s) prior to the service date Otherwise 100 % cancellation charge for the entire service will be applied."
+                    }
+                },
+                {
+                    "roomCode": "MA02033539",
+                    "roomOfferName": "Twin/Double room with Breakfast",
+                    "roomType": "Double",
+                    "nightPrice": 27.15,
+                    "totalPrice": 841.5,
+                    "roomOffer": {
+                        "cancellationPolicy": "Hotel Policy : You have to cancel 7 day(s) prior to the service date Otherwise 100 % cancellation charge for the entire service will be applied."
+                    }
+                },
+                {
+                    "roomCode": "MA13081381",
+                    "roomOfferName": "Twin/Double room - Superior with Room Only",
+                    "roomType": "Double",
+                    "nightPrice": 23.1,
+                    "totalPrice": 716.1,
+                    "roomOffer": {
+                        "cancellationPolicy": "Hotel Policy : You have to cancel 7 day(s) prior to the service date Otherwise 100 % cancellation charge for the entire service will be applied."
+                    }
+                }
+            ]
+        },
+        {
+            "roomName": "Kingston Suites Bangkok",
+            "facility": [
+                {
+                    "key": "WIFI",
+                    "value": "1"
+                },
+                {
+                    "key": "SWIM",
+                    "value": "0"
+                },
+                {
+                    "key": "FITNESS",
+                    "value": "1"
+                },
+                {
+                    "key": "RESTAURANTS",
+                    "value": "1"
+                },
+                {
+                    "key": "PARKING",
+                    "value": "1"
+                },
+                {
+                    "key": "LAUNDRY",
+                    "value": "1"
+                },
+                {
+                    "key": "ROOM_SRV",
+                    "value": "0"
+                },
+                {
+                    "key": "SPA",
+                    "value": "0"
+                }
+            ],
+            "details": [
+                {
+                    "roomCode": "MA13081381",
+                    "roomOfferName": "Twin/Double room - Superior with Breakfast",
+                    "roomType": "Double",
+                    "nightPrice": 33.96,
+                    "totalPrice": 1052.7,
+                    "roomOffer": {
+                        "cancellationPolicy": "Hotel Policy : You have to cancel 7 day(s) prior to the service date Otherwise 100 % cancellation charge for the entire service will be applied."
+                    }
+                },
+                {
+                    "roomCode": "MA19120141",
+                    "roomOfferName": "Double room - Superior with Room Only",
+                    "roomType": "Double",
+                    "nightPrice": 36.65,
+                    "totalPrice": 1136.3,
+                    "roomOffer": {
+                        "cancellationPolicy": "Hotel Policy : You have to cancel 7 day(s) prior to the service date Otherwise 100 % cancellation charge for the entire service will be applied."
+                    }
+                }
+            ]
+        }
+    ]
+}

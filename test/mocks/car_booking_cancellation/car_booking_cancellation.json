@@ -1,0 +1,16 @@
+{
+  "status": {
+    "code": "1000",
+    "header": "Success"
+  },
+  "data": {
+    "actionStatus": "success",
+    "cancellationDate": "2022-04-11",
+    "totalAmount": 0.0,
+    "refund": {
+      "reservationCancellationFee": 0.0,
+      "processingFee": 0.0,
+      "refundAmount": 0.0
+    }
+  }
+}

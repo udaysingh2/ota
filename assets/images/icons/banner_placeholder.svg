@@ -1,0 +1,33 @@
+<svg width="329" height="80" viewBox="0 0 329 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear" x1="-13.9825" y1="87.7333" x2="2.55428" y2="-99.0996"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CF1D5B" stop-opacity="0.37" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="176.487" y1="5.45435" x2="-47.5459" y2="229.487"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#BE9DCF" />
+            <stop offset="1" stop-color="#DFC4DD" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="166.021" y1="-13.2089" x2="166.021" y2="215.613"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F4ECF4" />
+            <stop offset="1" stop-color="#E9D6EB" />
+        </linearGradient>
+        <clipPath id="clip0">
+            <rect width="329" height="80" rx="12" fill="white" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect width="329" height="80" rx="12" fill="white" />
+        <rect width="329" height="80" rx="12" fill="url(#paint0_linear)" fill-opacity="0.5" />
+        <g opacity="0.6">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M213.827 61.4769C218.982 66.6323 227.341 66.6323 232.496 61.4769C232.498 61.4747 232.5 61.4725 232.503 61.4704L244.941 73.9087L20.9085 297.941L8.48135 285.514C13.6346 280.358 13.6339 272.001 8.47918 266.847C3.3245 261.692 -5.03246 261.691 -10.188 266.845L-22.6344 254.398C-17.4826 249.243 -17.4838 240.887 -22.638 235.733C-27.7922 230.578 -36.148 230.577 -41.3037 235.729L-53.7688 223.264C-48.6161 218.108 -48.617 209.752 -53.7715 204.597C-58.926 199.443 -67.2825 199.442 -72.4381 204.595L-84.8617 192.171C-79.7104 187.015 -79.7117 178.66 -84.8658 173.506C-90.0198 168.352 -98.3754 168.35 -103.531 173.502L-116 161.032L108.032 -63L120.49 -50.542L120.481 -50.5322C115.325 -45.3768 115.325 -37.0183 120.481 -31.8629C125.636 -26.7075 133.994 -26.7075 139.15 -31.8629L139.16 -31.8726L151.585 -19.4472L151.58 -19.4418C146.424 -14.2864 146.424 -5.92782 151.58 -0.772417C156.735 4.38298 165.094 4.38299 170.249 -0.772417L170.254 -0.777863L182.719 11.6872L182.713 11.6935C177.558 16.8489 177.558 25.2074 182.713 30.3628C187.868 35.5182 196.227 35.5182 201.382 30.3628L201.389 30.3565L213.833 42.801C213.831 42.8032 213.829 42.8054 213.827 42.8075C208.671 47.9629 208.671 56.3215 213.827 61.4769Z"
+                fill="url(#paint1_linear)" />
+            <rect x="95.6147" y="-13.2089" width="140.813" height="228.821" transform="rotate(45 95.6147 -13.2089)"
+                fill="url(#paint2_linear)" />
+        </g>
+    </g>
+</svg>

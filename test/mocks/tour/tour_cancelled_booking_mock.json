@@ -1,0 +1,23 @@
+{
+  "serviceType": "TOUR",
+  "name": "สวนสนุกดรีมเวิลด์(Hello We Sell Tour & Ticket)",
+  "totalPrice": 150.0,
+  "bookingDate": "2022-03-04",
+  "bookingUrn": "TT220302-AA-0008",
+  "status": "CANCELLED",
+  "startTimeAMPM": "09:00 น",
+  "paymentStatus": "CONFIRMED",
+  "bookingId": null,
+  "tour": {
+    "subServiceType": "TICKET",
+    "name": "Wat Arun",
+    "totalPrice": 1958.24,
+    "startTimeAMPM": "09:00 AM",
+    "bookingUrn": "TT220302-AA-0005",
+    "status": "CONFIRMED",
+    "bookingDate": "2022-03-10",
+    "bookingId": "B2CMMA220311171",
+    "paymentStatus": "CONFIRMED",
+    "activityStatus": "CONFIRMED"
+  }
+}

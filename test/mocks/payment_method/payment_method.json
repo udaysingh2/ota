@@ -1,0 +1,50 @@
+{
+  "data":{
+    "getCustomerPaymentMethodDetails": {
+      "data": {
+        "cardCurrent": 10,
+        "cardMaximum": 40,
+        "paymentList": [
+          {
+            "paymentMethodId": "1AB23456C7890123D",
+            "sortSequence": 1,
+            "cardMask": "***3456",
+            "cardType": "VISA",
+            "paymentType":"CREDIT_CARD",
+            "cardBank": "",
+            "defaultMethodFlag": false,
+            "nickname": "My Visa",
+            "paymentStatus": "ACTIVE"
+          },
+          {
+            "paymentMethodId": "1MH23456Z789776D",
+            "sortSequence": 2,
+            "cardMask": "***2234",
+            "cardType": "JCB",
+            "paymentType":"CREDIT_CARD",
+            "cardBank": "",
+            "defaultMethodFlag": true,
+            "nickname": "My Jcb",
+            "paymentStatus": "ACTIVE"
+          },
+          {
+            "paymentMethodId": "1AB2C7890123D",
+            "sortSequence": 3,
+            "cardMask": "***7688",
+            "cardType": "MASTERCARD",
+            "paymentType":"DEBIT_CARD",
+            "cardBank": "",
+            "defaultMethodFlag": false,
+            "nickname": "My Mastercard",
+            "paymentStatus": "ACTIVE"
+          }
+        ]
+      },
+      "status": {
+        "code": "1000",
+        "header": "Success",
+        "description": "Success"
+      }
+    }
+  }
+}

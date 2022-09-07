@@ -1,0 +1,186 @@
+import 'package:ota/domain/car_rental/car_search_result/model/car_search_result_domain_argument_model.dart';
+import 'package:ota/domain/car_rental/car_search_result/model/car_search_result_domain_model.dart';
+
+import '../../../../modules/car_rental/car_landing/view_model/car_landing_view_model.dart';
+import 'car_search_result_remote_data_source.dart';
+
+class CarSearchResultMockDataSourceImpl
+    implements CarSearchResultRemoteDataSource {
+  CarSearchResultMockDataSourceImpl();
+  static String getMockData() {
+    return _responseMock;
+  }
+
+  @override
+  Future<CarSearchResultDomainModel> getCarSearchResultData(
+      CarSearchResultDomainArgumentModel argument,
+      int pageNumber,
+      int pageSize,
+      LocationModel? pickupLocation,
+      LocationModel? dropLocation,
+      String dataSearchType,
+      bool isSearchSave) async {
+    await Future.delayed(const Duration(seconds: 1));
+    return CarSearchResultDomainModel.fromString(_responseMock);
+  }
+}
+
+var _responseMock = '''
+{
+  "data": {
+    "carRental": {
+      "carModelList": [
+        {
+          "carId": 24,
+          "sortSequence": 1,
+          "brandId": 9,
+          "brandName": "Nisson",
+          "modelName": "March",
+          "carInfo": {
+            "carTypeId": 1,
+            "carTypeName": "Small Cars"
+          },
+          "images": {
+            "thumb": "https://train.travflex.com/imagedata/Car/800/crv-1.jpg",
+            "full": "https://train.travflex.com/ImageData/Car/crv-1.jpg"
+          },
+          "startingPrice": 1200,
+          "numSuppliers": 2,
+          "promotionList": [
+              {
+                 "endDate": "2022-03-31 23:59:59",
+                  "startDate": "2022-02-25 00:00:00",
+                  "line2": "สมาชิก",
+                  "line1": "สมาชิก",
+                  "promotionCode": "12861",
+                  "promotionType": "OVERLAY",
+                  "productType": "CARRENTAL",
+                  "productId": "MA2203000008"
+                }                ]
+        },
+        {
+          "carId": 72,
+          "sortSequence": 2,
+          "brandId": 8,
+          "brandName": "Honda",
+          "modelName": "Accord",
+          "carInfo": {
+            "carTypeId": 12,
+            "carTypeName": "Full Size"
+          },
+          "images": {
+            "thumb": "https://train.travflex.com/imagedata/Car/800/accord-1.jpg",
+            "full": "https://train.travflex.com/ImageData/Car/accord-1.jpg"
+          },
+          "startingPrice": 2400,
+          "numSuppliers": 2,
+           "promotionList": [
+              {
+                 "endDate": "2022-03-31 23:59:59",
+                  "startDate": "2022-02-25 00:00:00",
+                  "line2": "สมาชิก",
+                  "line1": "สมาชิก",
+                  "promotionCode": "12861",
+                  "promotionType": "OVERLAY",
+                  "productType": "CARRENTAL",
+                  "productId": "MA2203000008"
+                }                ]
+        }
+      ],
+      "availableFilter": {
+        "minPrice": 0,
+        "maxPrice": 100000,
+        "carBrand": [
+          {
+            "id": 9,
+            "name": "Nisson"
+          },
+          {
+            "id": 15,
+            "name": "MG"
+          },
+          {
+            "id": 7,
+            "name": "Toyota"
+          },
+          {
+            "id": 8,
+            "name": "Honda"
+          }
+        ],
+        "carType": [
+          {
+            "id": 1,
+            "name": "Small Cars"
+          },
+          {
+            "id": 2,
+            "name": "Large cars"
+          },
+          {
+            "id": 14,
+            "name": "Crossover SUV"
+          },
+          {
+            "id": 4,
+            "name": "Medium cars"
+          },
+          {
+            "id": 12,
+            "name": "Full Size"
+          }
+        ],
+        "carSupplier": [
+          {
+            "id": "MA2108000001",
+            "name": "Avis"
+          },
+          {
+            "id": "MA2108000002",
+            "name": "Heartz"
+          },
+          {
+            "id": "MA2111000062",
+            "name": "Krungthai Car Rent & Lease PLC"
+          },
+          {
+            "id": "MA2201000015",
+            "name": "Doctor Car Rental"
+          },
+          {
+            "id": "MA2111000064",
+            "name": "Chic Car Rent"
+          },
+          {
+            "id": "MA2111000063",
+            "name": "Carenya Drive"
+          },
+          {
+            "id": "MA2111000065",
+            "name": "Carenya Drive 1"
+          },
+          {
+            "id": "MA2111000066",
+            "name": "Pan Car Rental Supplier"
+          },
+          {
+            "id": "MA2201000019",
+            "name": "ILO Supplier by Cindy"
+          }
+        ],
+        "capsulePromotion": [
+          {
+            "code": "FREE01",
+            "name": "Free Food Delivery"
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "code": "1000",
+    "header": "",
+    "description": "Success"
+  }
+}
+''';

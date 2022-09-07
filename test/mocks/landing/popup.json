@@ -1,0 +1,15 @@
+{
+    "popups": [
+        {"popupId": "1",
+        "type": "GLOBAL",
+        "startDate": "2020-07-24 08:44:39",
+        "endDate": "2020-07-24 08:44:39",
+        "priority": "1",
+        "imageFilename": "banner1_${lang}.jpg",
+        "deeplinkUrl": "http://img01-deeplink-${lang}",
+        "deeplinkType": "3",
+        "function": "OTA_LANDING",
+        "orderSection": "1"}
+    ]
+
+}

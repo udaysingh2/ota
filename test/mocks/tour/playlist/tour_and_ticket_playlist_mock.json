@@ -1,0 +1,72 @@
+{
+  "getTourAndTicketPlaylist": {
+    "data": {
+      "listOfPlaylist": [
+        {
+          "id": "MA2111000168",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://train.travflex.com/SightSeeing/images/350/CL002/sea_life_ocean_world_bangkok-general1.jpg",
+          "name": "Sea Life Ocean World Bangkok",
+          "locationName": "Mueang",
+          "cityName": "Krabi",
+          "styleName": "Museum",
+          "startPrice": 800.5,
+          "promotionText_line1": "ลด 8%",
+          "promotionText_line2": "ทุกทัวร์"
+        },
+        {
+          "id": "MA2110000413",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://train.travflex.com/SightSeeing/images/350/CL002/bangkok_temples-general1.jpg",
+          "name": "Bangkok Temples",
+          "cityName": "Krabi",
+          "locationName": "Mueang",
+          "startPrice": 800.5,
+          "promotionText_line1": "@",
+          "promotionText_line2": "RBH"
+        },
+        {
+          "id": "MA2005000046",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://train.travflex.com/SightSeeing/images/350/CL002/bangkok_temples-general1.jpg",
+          "name": "Bangkok Temples",
+          "cityName": "Krabi",
+          "styleName": "Museum",
+          "startPrice": 800.5,
+          "promotionText_line1": "@",
+          "promotionText_line2": "RBH"
+        },
+        {
+          "id": "MA2005000046",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://train.travflex.com/SightSeeing/images/350/CL002/bangkok_temples-general1.jpg",
+          "name": "Bangkok Temples",
+          "locationName": "Mueang",
+          "styleName": "Museum",
+          "startPrice": 800.5,
+          "promotionText_line1": "@",
+          "promotionText_line2": "RBH"
+        },
+        {
+          "id": "MA2005000046",
+          "cityId": "MA05110041",
+          "countryId": "MA05110001",
+          "imageUrl": "https://train.travflex.com/SightSeeing/images/350/CL002/sea_life_ocean_world_bangkok-general1.jpg",
+          "name": "Sea Life Ocean World Bangkok",
+          "startPrice": 800.5,
+          "promotionText_line1": "@",
+          "promotionText_line2": "RBH"
+        }
+      ]
+    },
+    "status": {
+      "code": "1000",
+      "header": "success",
+      "description": ""
+    }
+  }
+}

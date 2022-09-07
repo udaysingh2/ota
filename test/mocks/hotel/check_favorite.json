@@ -1,0 +1,12 @@
+{
+	"checkFavorites": {
+		"data": {
+			"isFavorite": false
+		},
+		"status": {
+			"code": "1000",
+			"header": "Success",
+			"description": null
+		}
+	}
+}

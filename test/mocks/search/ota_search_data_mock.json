@@ -1,0 +1,192 @@
+{
+  "data": {
+    "getOtaSearchResult": {
+      "data": {
+        "hotel": {
+          "filter": {
+            "minPrice": 1000,
+            "maxPrice": 1000,
+            "rating": [
+              3
+            ],
+            "reviewScore": [
+              4
+            ],
+            "adminPromotion": [
+              "admin promo1"
+            ],
+            "capsulePromotion": [
+              {
+                "name": "Free Food Delivery",
+                "code": "FREE01"
+              }
+            ],
+            "infotechPromotion": [
+              "Earlybird"
+            ],
+            "promotion": null,
+            "availableHotel": null
+          },
+          "hotelList": [
+            {
+              "locationName": "Pakchong",
+              "countryId": "MA05110001",
+              "address": "Pakchong, Nakhon Ratchasima",
+              "sortSequence": 0,
+              "hotelStatus": "open",
+              "hotelId": "MA1809001981",
+              "hotelName": "Capital J at Khao Yai",
+              "hotelImage": "https://trbhmanage.travflex.com/ImageData/Hotel/capital_j_at_khao_yai-general1.jpg",
+              "rating": 3,
+              "percentageDiscount": 17,
+              "rackRate": 1200,
+              "rackRatePerNight": 200,
+              "totalPrice": 1000,
+              "pricePerNight": 1000,
+              "ratingTitle": null,
+              "reviewText": null,
+              "offerPercent": null,
+              "discount": null,
+              "adminPromotionLine1": "admin",
+              "adminPromotionLine2": "promo1",
+              "capsulePromotion": [
+                {
+                  "name": "Free Food Delivery",
+                  "code": "FREE01"
+                }
+              ],
+              "review": {
+                "score": 4,
+                "totalReview": 10,
+                "reviewText": "superb"
+              },
+              "cityName": "Nakhon Ratchasima",
+              "score": null,
+              "infotech11Promotion": []
+            }
+          ]
+        },
+        "ticketActivity": {
+          "filter": {
+            "minPrice": 0,
+            "maxPrice": 30000,
+            "styleName": [
+              "สวนสนุก",
+              "สถานที่ท่องเที่ยว"
+            ]
+          },
+          "ticketActivityList": [
+            {
+              "id": "MA2110000373",
+              "name": "เกาะพีพี1",
+              "styleName": "styleName1",
+              "locationName": "Ko Phi Phi",
+              "cityId": "MA05110062",
+              "cityName": "ภูเก็ต",
+              "countryId": "MA05110001",
+              "countryName": "ไทย",
+              "imageUrl": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/koh-phi-phi-ma2110000373-general1.jpg",
+              "startPrice": 1445,
+              "promotionText_line1": "โปรโมชัน_1",
+              "promotionText_line2": "โปรโมชัน_2",
+              "capsulePromotion": [
+                {
+                  "name": "ส่งอาหารฟรี",
+                  "code": "FREE01"
+                }
+              ]
+            }
+          ]
+        },
+        "tourActivity": {
+          "filter": {
+            "minPrice": 1445,
+            "maxPrice": 1884,
+            "styleName": [
+              "styleName1",
+              "styleName2"
+            ]
+          },
+          "tourActivityList": [
+            {
+              "id": "MA2110000373",
+              "name": "เกาะพีพี1",
+              "styleName": "styleName1",
+              "locationName": "Ko Phi Phi",
+              "cityId": "MA05110062",
+              "cityName": "ภูเก็ต",
+              "countryId": "MA05110001",
+              "countryName": "ไทย",
+              "imageUrl": "https://trbhmanage.travflex.com/SightSeeing/images/350/CL213/koh-phi-phi-ma2110000373-general1.jpg",
+              "startPrice": 1445,
+              "promotionText_line1": "โปรโมชัน_1",
+              "promotionText_line2": "โปรโมชัน_2",
+              "capsulePromotion": [
+                {
+                  "name": "ส่งอาหารฟรี",
+                  "code": "FREE01"
+                }
+              ]
+            }
+          ]
+        },
+        "carRental" :
+        {
+          "pickupLocationId": "pickupLocationId",
+          "returnLocationId":"returnLocationId",
+          "carModelList": [
+            {
+              "carId" : 123,
+              "brandId": 456,
+              "brandName": "brandName",
+              "suppliers": [
+              {
+                "pickupCounter" :
+                {
+                  "locationId" : "locationId",
+                  "address": "address",
+                  "name": "name",
+                  "description" : "description"
+                },
+                "returnCounter" :
+                {
+                  "locationId" : "locationId",
+                  "address" : "address",
+                  "name" : "name",
+                  "description" : "description"
+                }
+              }],
+              "overlayPromotion" :
+              {
+                "adminPromotionLine1" : "adminPromotionLine1",
+                "adminPromotionLine2" : "adminPromotionLine2"
+              },
+              "modelName" : "modelName",
+              "images" :
+              {
+                "full" : "full",
+                "thumb" : "thumb"
+              },
+              "carInfo" :
+              {
+                "carTypeName" : "carTypeName",
+                "carTypeId" : 1234
+              },
+              "capsulePromotion" : [
+                {
+                  "name" : "name",
+                  "code" : "code"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": {
+        "code": "1000",
+        "header": "",
+        "description": "Success"
+      }
+    }
+  }
+}

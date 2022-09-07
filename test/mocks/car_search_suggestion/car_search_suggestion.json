@@ -1,0 +1,89 @@
+{
+  "getDataScienceAutoCompleteSearch": {
+    "status": {
+      "code": "1000",
+      "header": "Success"
+    },
+    "data": {
+      "suggestions": {
+        "tour": [
+          {
+            "keyword": "Phuket Racha Island Snorkeling Tour",
+            "id": "MA2111000117",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001"
+          }
+        ],
+        "ticket": [
+          {
+            "keyword": "Phuket Aquarium",
+            "id": "MA2110000377",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001"
+          },
+          {
+            "keyword": "Phuket Thai Hua Museum",
+            "id": "MA2111000034",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001"
+          }
+        ],
+        "city": [
+          {
+            "keyword": "Phuket",
+            "cityId": "MA05110067",
+            "cityName": "Phuket",
+            "countryId": "MA05110001"
+          },
+          {
+            "keyword": "Pak Phun",
+            "cityId": "MA05110068",
+            "cityName": "Pak Phun",
+            "countryId": "MA05110001"
+          }
+        ],
+        "cityLocation": [
+          {
+            "type": "city",
+            "keyword": "Phuket",
+            "id": null,
+            "locationName": "Phuket",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001"
+          },
+          {
+            "type": "location",
+            "keyword": "Phuket International Airport",
+            "id": "MA21120004",
+            "locationName": "Phuket International Airport",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001"
+          }
+        ],
+        "location": [
+          {
+            "keyword": "Phuket International Airport",
+            "id": "MA21120004",
+            "cityId": "MA05110067",
+            "countryId": "MA05110001",
+            "locationName": "Phuket International Airport"
+          },
+          {
+            "keyword": "Pakchong",
+            "id": "MA08030094",
+            "cityId": "MA05110027",
+            "countryId": "MA05110001",
+            "locationName": "Pakchong"
+          },
+          {
+            "keyword": "Adelphi Grande Sukhumvit",
+            "id": "MA21120006",
+            "cityId": "MA05110041",
+            "countryId": "MA05110001",
+            "locationName": "Adelphi Grande Sukhumvit"
+          }
+        ]
+      }
+    }
+  }
+}
